@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary: var(--primary);
+  --color-primary-dark: var(--primary-dark);
+  --color-coral: var(--coral);
+  --color-amber: var(--amber);
+  --color-teal: var(--teal);
+  --color-cream: var(--cream);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-text: var(--text);
+}
+
+:root {
+  --primary: #2563EB;
+  --primary-dark: #123E91;
+  --coral: #FF6B4A;
+  --amber: #FFB627;
+  --teal: #0F8B8D;
+  --cream: #FFF6EF;
+  --ink: #101B33;
+  --ink-soft: #1C3A63;
+  --text: #241726;
+}
+
+.dark {
+  --cream: #0B0F1A;
+  --text: #F0F0F5;
+  --ink: #05070D;
+  --ink-soft: #0E1A2E;
+}
+
+body {
+  background-color: var(--cream);
+  color: var(--text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
