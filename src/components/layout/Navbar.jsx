@@ -13,8 +13,6 @@ export default function Navbar() {
         {/* Brand */}
         <Link to="/" className="flex items-center gap-3">
           <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border-2 border-dashed border-primary text-center text-[8px] font-bold leading-tight text-primary">
-            YOUR
-            <br />
             LOGO
           </div>
           <div className="leading-tight">
