@@ -24,7 +24,9 @@
     "dropdown": {
       "screening": "Cancer Awareness & Screening",
       "surgery": "Medical & Surgery Support",
-      "family": "Child & Family Support",
+      "remoteVillages": "Remote Village Support",
+      "healthWorkerTraining": "Health Worker Training",
+      "qualityOfLife": "Community Health & Quality of Life",
       "outreach": "Community Outreach"
     }
   },
@@ -66,7 +68,18 @@
     "title": "Providing essential care, restoring dignity",
     "screening": { "title": "Cancer Screening & Awareness", "description": "Free community screening, symposiums, and early-detection education." },
     "surgery": { "title": "Surgery & Medical Support", "description": "Covering the cost of surgery and treatment for families who can't afford care." },
-    "family": { "title": "Child & Family Relief", "description": "Support for children and households facing hardship, illness, or loss." }
+    "remoteVillages": {
+      "title": "Support for Cancer Patients in Remote Villages",
+      "description": "Reaching cancer patients in remote and underserved villages with screening, treatment support, and follow-up care they can't otherwise access."
+    },
+    "healthWorkerTraining": {
+      "title": "Collaborative Health Worker Training",
+      "description": "Partnering with local health workers in remote and underserved communities to build lasting, hands-on cancer-care skills."
+    },
+    "qualityOfLife": {
+      "title": "Improving Quality of Life & Health Safety",
+      "description": "Working to raise everyday health standards and safety for underserved communities, beyond one-time interventions."
+    }
   },
   "story": {
     "eyebrow": "OUR STORY",

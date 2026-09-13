@@ -15,22 +15,29 @@
 }
 
 :root {
-  --primary: #2563EB;
-  --primary-dark: #123E91;
-  --coral: #FF6B4A;
-  --amber: #FFB627;
-  --teal: #0F8B8D;
-  --cream: #FFF6EF;
-  --ink: #101B33;
-  --ink-soft: #1C3A63;
-  --text: #241726;
+  /* Brand identity — pink + purple, cancer-awareness palette */
+  --primary: #D6247D;       /* vivid pink — buttons, links, icons */
+  --primary-dark: #6B1B8C;  /* deep purple — gradients, dark accents */
+  --coral: #FF5FA8;         /* soft pink — secondary gradient stop */
+  --amber: #A855F7;         /* violet — CTA banner, footer accents */
+  --teal: #7C3AED;          /* indigo-violet — used sparingly for variety */
+
+  /* Surfaces — light mode */
+  --cream: #FFF5FB;         /* page background, faint pink tint */
+  --ink: #2B0A3D;           /* dark surfaces (footer, story section) */
+  --ink-soft: #431256;
+  --text: #2B1130;          /* body text, deep plum instead of navy-black */
 }
 
 .dark {
-  --cream: #0B0F1A;
-  --text: #F0F0F5;
-  --ink: #05070D;
-  --ink-soft: #0E1A2E;
+  /* Surfaces — dark mode, purple-black instead of navy-black */
+  --cream: #15071F;
+  --text: #F5E9FB;
+  --ink: #0D0416;
+  --ink-soft: #1E0A2E;
+  /* --primary/--primary-dark/--coral/--amber/--teal intentionally NOT
+     overridden here — brand colors stay consistent across themes;
+     only the surface tokens (background/text) adapt to dark mode. */
 }
 
 body {

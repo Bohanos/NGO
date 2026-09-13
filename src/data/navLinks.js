@@ -1,6 +1,3 @@
-// Stores translation KEYS, not literal text — this file can't call t()
-// since it's plain JS, not a React component. Navbar.jsx and Footer.jsx
-// resolve these keys via t() at render time.
 export const navItems = [
   { key: 'nav.whoWeAre', href: '/about' },
   {
@@ -8,7 +5,9 @@ export const navItems = [
     dropdown: [
       { key: 'nav.dropdown.screening', href: '/what-we-do#screening' },
       { key: 'nav.dropdown.surgery', href: '/what-we-do#surgery' },
-      { key: 'nav.dropdown.family', href: '/what-we-do#family' },
+      { key: 'nav.dropdown.remoteVillages', href: '/what-we-do#remoteVillages' },
+      { key: 'nav.dropdown.healthWorkerTraining', href: '/what-we-do#healthWorkerTraining' },
+      { key: 'nav.dropdown.qualityOfLife', href: '/what-we-do#qualityOfLife' },
       { key: 'nav.dropdown.outreach', href: '/what-we-do#outreach' },
     ],
   },

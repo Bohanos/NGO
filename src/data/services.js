@@ -2,10 +2,12 @@
 export const services = [
   { id: 'screening', icon: '🎗️', href: '/what-we-do#screening' },
   { id: 'surgery', icon: '⚕️', href: '/what-we-do#surgery' },
-  { id: 'family', icon: '🧒', href: '/what-we-do#family' },
+  { id: 'remoteVillages', icon: '🏞️', href: '/what-we-do#remoteVillages' },
+  { id: 'healthWorkerTraining', icon: '🎓', href: '/what-we-do#healthWorkerTraining' },
+  { id: 'qualityOfLife', icon: '🛡️', href: '/what-we-do#qualityOfLife' },
 ]
 
-// "Our Approach" steps — `key` maps to translation keys under `approach.steps.<key>`
+// "Our Approach" steps — unchanged
 export const approachSteps = [
   { num: '01', key: 'reach' },
   { num: '02', key: 'screenEducate' },

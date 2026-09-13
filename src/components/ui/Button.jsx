@@ -11,7 +11,7 @@ const variants = {
   light:
     'bg-white text-[#101B33] shadow-lg hover:-translate-y-0.5',
   gradient:
-    'bg-gradient-to-r from-amber to-coral text-[#101B33] shadow-lg hover:-translate-y-0.5',
+    'bg-gradient-to-r from-amber to-coral --text shadow-lg hover:-translate-y-0.5',
 }
 
 export default function Button({

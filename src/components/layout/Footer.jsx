@@ -16,7 +16,7 @@ export default function Footer() {
       >
         <polygon
           points="0,70 0,30 100,55 220,10 340,50 460,20 600,58 740,15 860,48 980,8 1100,45 1200,25 1200,70"
-          className="fill-[#0B1220]"
+          className="fill-[#3B0764]"
         />
       </svg>
 
