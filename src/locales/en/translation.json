@@ -4,7 +4,7 @@
     "readMore": "Read More",
     "learnOurStory": "Learn Our Story",
     "seeWhatWeDo": "See What We Do",
-    "supportAFamily": "Support a Family",
+    "supportAFamily": "Support a Patient",
     "seeOurWork": "See Our Work",
     "sendMessage": "Send Message",
     "copy": "Copy",
@@ -31,7 +31,7 @@
     }
   },
   "footer": {
-    "tagline": "A grassroots foundation partnering with Bende LGA to bring cancer screening, medical support, and relief to families who need it most.",
+    "tagline": "A grassroots foundation partnering with Bende LGA to bring cancer screening, medical support, and relief to patients and communities who need it most.",
     "becomeADonor": "Become a Donor",
     "explore": "EXPLORE",
     "getInvolved": "GET INVOLVED",
@@ -45,13 +45,32 @@
     "location": "Bende LGA, Abia State"
   },
   "hero": {
-    "eyebrow": "GRASSROOTS HEALTH & RELIEF · ABIA STATE",
+    "eyebrow": "GRASSROOTS CANCER CARE · ABIA STATE",
     "titleLine1": "Restoring Hope,",
     "titleHighlight": "Rebuilding Lives",
-    "titleLine2": "One Family at a Time.",
-    "description": "We reach families who can't afford screening, surgery, or basic care — bringing medical support and relief straight into the community.",
+    "titleLine2": "One Patient at a Time.",
+    "description": "We reach cancer patients who can't afford screening, surgery, or treatment — bringing life-saving care and support straight into the community.",
     "mainPhotoAlt": "Community outreach walk",
     "insetPhotoAlt": "Volunteers at outreach event"
+  },
+  "signs": {
+    "eyebrow": "OUR CALL TO ACTION",
+    "title": "Know the Signs, Take Action, Save Lives",
+    "description": "Early detection changes everything — here's what that looks like in practice.",
+    "items": {
+      "knowSigns": {
+        "title": "Know the Signs",
+        "description": "Persistent lumps, unusual bleeding, unexplained weight loss, or changes that don't go away — recognizing early warning signs is the first step toward beating cancer."
+      },
+      "takeAction": {
+        "title": "Take Action",
+        "description": "We make it easy to act on those signs — free screening, referrals, and support to get a diagnosis without delay or financial fear."
+      },
+      "saveLives": {
+        "title": "Save Lives",
+        "description": "Early detection dramatically improves survival. Every person screened in time is a life this campaign has helped save."
+      }
+    }
   },
   "approach": {
     "eyebrow": "OUR APPROACH",
@@ -60,14 +79,14 @@
       "reach": { "title": "Reach", "description": "We go house-to-house across wards and villages." },
       "screenEducate": { "title": "Screen & Educate", "description": "Free on-site screening and health education." },
       "supportTreat": { "title": "Support & Treat", "description": "Covering surgery, medication, and care costs." },
-      "followUp": { "title": "Follow Up", "description": "Ongoing support until the family is stable." }
+      "followUp": { "title": "Follow Up", "description": "Ongoing support until the patient is stable." }
     }
   },
   "services": {
     "eyebrow": "WHAT WE DO",
     "title": "Providing essential care, restoring dignity",
     "screening": { "title": "Cancer Screening & Awareness", "description": "Free community screening, symposiums, and early-detection education." },
-    "surgery": { "title": "Surgery & Medical Support", "description": "Covering the cost of surgery and treatment for families who can't afford care." },
+    "surgery": { "title": "Surgery & Medical Support", "description": "Covering the cost of surgery and treatment for patients who can't afford care." },
     "remoteVillages": {
       "title": "Support for Cancer Patients in Remote Villages",
       "description": "Reaching cancer patients in remote and underserved villages with screening, treatment support, and follow-up care they can't otherwise access."
@@ -87,18 +106,24 @@
     "description": "What started as a single cancer awareness walk in Bende LGA has grown into a grassroots movement — partnering with local government, medical associations, and community leaders to make sure care reaches people, not the other way around.",
     "imageAlt": "Community health symposium"
   },
+  "grassroots": {
+    "eyebrow": "OUR REACH",
+    "title": "Reaching Grassroots in West Africa",
+    "description": "From village health posts to remote community halls, we're taking the message and the means of early cancer detection beyond the cities — to the underserved corners of West Africa where it's needed most.",
+    "imageAlt": "Community outreach in a remote village"
+  },
   "team": {
     "eyebrow": "BEHIND THE FOUNDATION",
     "title": "Meet the people driving this work",
     "description": "Co-conveners, health authorities, and partners named on our own outreach materials.",
     "members": {
-    "uwabunkonyeBassey": { "role": "Mayor, Bende L.G.A" },
-    "euniceOjike": { "role": "President, Dr Uzumma Cares" },
-    "mercyIgwe": { "role": "Family Medicine General, Co-Convener" },
-    "josephineEmenekeOkorie": { "role": "Environmental Scientist" },
-    "ugommaOkorieWright": { "role": "Founder/CEO, Munez Healthcare" },
-    "iheadigboOluchi": { "role": "Health Authority Secretary" },
-    "annetteElekwachi": { "role": "Oncology Diagnostic Researcher" }
+      "uwabunkonyeBassey": { "role": "Mayor, Bende L.G.A" },
+      "euniceOjike": { "role": "President, Dr Uzumma Cares" },
+      "mercyIgwe": { "role": "Family Medicine General, Co-Convener" },
+      "josephineEmenekeOkorie": { "role": "Environmental Scientist" },
+      "ugommaOkorieWright": { "role": "Founder/CEO, Munez Healthcare" },
+      "iheadigboOluchi": { "role": "Health Authority Secretary" },
+      "annetteElekwachi": { "role": "Oncology Diagnostic Researcher" }
     }
   },
   "leadership": {
@@ -119,41 +144,41 @@
     }
   },
   "cta": {
-    "title": "Help Us Reach the Next Family",
-    "description": "Every donation funds a screening, a surgery, or a household that needed help today.",
+    "title": "Help Us Reach the Next Patient",
+    "description": "Every donation funds a screening, a surgery, or treatment for someone who needs it today.",
     "button": "Donate Now"
   },
   "pages": {
     "about": {
       "eyebrow": "WHO WE ARE",
       "title": "A grassroots foundation built on showing up",
-      "intro": "The Macedonian Call Cancer Foundation started with a single cancer awareness walk in Bende LGA. Since then, it's grown into an ongoing partnership with local government, medical associations, and community leaders — working to make sure screening, treatment, and relief actually reach the people who need them.",
+      "intro": "The Macedonian Call Cancer Foundation started with a single cancer awareness walk in Bende LGA. Since then, it's grown into an ongoing partnership with local government, medical associations, and community leaders — working to make sure cancer screening, treatment, and support actually reach the people who need them.",
       "introImageAlt": "Foundation team and volunteers",
       "stats": {
         "outreaches": "Community outreaches",
-        "households": "Households reached",
+        "households": "Patients Reached",
         "partners": "Partner organisations"
       },
-      "missionTitle": "Our Mission",
-      "mission": "To bring cancer screening, medical support, and relief directly to families who cannot otherwise afford care — starting with Bende LGA and growing with every outreach.",
-      "visionTitle": "Our Vision",
-      "vision": "A community where no one delays treatment, skips screening, or faces illness alone because of what they can't afford.",
+      "missionTitle": "Mission Statement",
+      "mission": "Taking the news and message of cancer to the grassroots and underserved communities in Africa.",
+      "visionTitle": "Vision Statement",
+      "vision": "Achieving a cancer-free world irrespective of social status and location.",
       "valuesEyebrow": "WHAT GUIDES US",
       "valuesTitle": "Our Values",
       "values": {
         "community": { "title": "Community First", "description": "We go where people are, instead of waiting for them to find us." },
-        "dignity": { "title": "Dignity in Care", "description": "Every family we support is treated with respect, not charity as pity." },
-        "followThrough": { "title": "Follow Through", "description": "We don't stop at a single visit — support continues until a family is stable." }
+        "dignity": { "title": "Dignity in Care", "description": "Every patient we support is treated with respect, not charity as pity." },
+        "followThrough": { "title": "Follow Through", "description": "We don't stop at a single visit — support continues until the patient is stable." }
       },
       "bannerTitle": "Want to know more about how we work?"
     },
     "whatWeDo": {
       "eyebrow": "WHAT WE DO",
       "title": "Care that meets people where they are",
-      "description": "From screening to surgery to ongoing family support — here's how we work.",
+      "description": "From screening to surgery to community-based cancer care — here's how we work.",
       "processEyebrow": "OUR PROCESS",
       "processTitle": "How every outreach runs",
-      "bannerTitle": "Know a family that needs support?",
+      "bannerTitle": "Know someone who needs support?",
       "reachOut": "Reach Out to Us"
     },
     "team": {
@@ -211,7 +236,7 @@
     "contact": {
       "eyebrow": "CONTACT",
       "title": "Get in touch",
-      "description": "Questions, partnership requests, or a family that needs support — reach out below.",
+      "description": "Questions, partnership requests, or a patient who needs support — reach out below.",
       "nameLabel": "Name",
       "emailLabel": "Email",
       "messageLabel": "Message",
