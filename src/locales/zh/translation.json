@@ -1,0 +1,208 @@
+{
+  "common": {
+    "donate": "捐款",
+    "readMore": "阅读更多",
+    "learnOurStory": "了解我们的故事",
+    "seeWhatWeDo": "查看我们的工作",
+    "supportAFamily": "支持一个家庭",
+    "seeOurWork": "查看我们的工作成果",
+    "sendMessage": "发送信息",
+    "copy": "复制",
+    "copied": "已复制！",
+    "photoComingSoon": "照片即将上线",
+    "imagePending": "图片待添加",
+    "openMenu": "打开菜单",
+    "portraitOf": "{{name}} 的肖像",
+    "partnerPlaceholder": "合作伙伴 {{number}}"
+  },
+  "nav": {
+    "whoWeAre": "关于我们",
+    "whatWeDo": "我们的工作",
+    "ourTeam": "我们的团队",
+    "stories": "故事",
+    "getInvolved": "参与其中",
+    "dropdown": {
+      "screening": "癌症宣传与筛查",
+      "surgery": "医疗与手术支持",
+      "family": "儿童与家庭援助",
+      "outreach": "社区外展"
+    }
+  },
+  "footer": {
+    "tagline": "我们是一家基层基金会，与本德地方政府（Bende LGA）合作，为最需要帮助的家庭提供癌症筛查、医疗支持和救助。",
+    "becomeADonor": "成为捐助者",
+    "explore": "探索",
+    "getInvolved": "参与其中",
+    "connect": "联系我们",
+    "contact": "联系方式",
+    "volunteer": "志愿服务",
+    "partnerWithUs": "成为合作伙伴",
+    "copyright": "The Macedonian Call Cancer Foundation. 保留所有权利。",
+    "privacy": "隐私政策",
+    "accessibility": "无障碍声明",
+    "location": "阿比亚州本德地方政府"
+  },
+  "hero": {
+    "eyebrow": "基层健康与救助 · 阿比亚州",
+    "titleLine1": "重燃希望，",
+    "titleHighlight": "重建生活",
+    "titleLine2": "一次一个家庭。",
+    "description": "我们主动接触那些无力负担筛查、手术或基本医疗的家庭，把医疗支持和救助直接带进社区。",
+    "mainPhotoAlt": "社区外展游行",
+    "insetPhotoAlt": "外展活动中的志愿者"
+  },
+  "approach": {
+    "eyebrow": "我们的方法",
+    "title": "帮助如何送达每一户人家",
+    "steps": {
+      "reach": { "title": "走进社区", "description": "我们挨家挨户走遍各个街区和村庄。" },
+      "screenEducate": { "title": "筛查与教育", "description": "提供免费现场筛查和健康教育。" },
+      "supportTreat": { "title": "支持与治疗", "description": "承担手术、药物和护理费用。" },
+      "followUp": { "title": "持续跟进", "description": "持续提供支持，直到家庭情况稳定。" }
+    }
+  },
+  "services": {
+    "eyebrow": "我们的工作",
+    "title": "提供必要的照护，重拾尊严",
+    "screening": { "title": "癌症筛查与宣传", "description": "提供免费社区筛查、研讨会以及早期发现相关教育。" },
+    "surgery": { "title": "手术与医疗支持", "description": "为无力承担医疗费用的家庭支付手术和治疗费用。" },
+    "family": { "title": "儿童与家庭救助", "description": "为面临困境、疾病或丧亲之痛的儿童和家庭提供支持。" }
+  },
+  "story": {
+    "eyebrow": "我们的故事",
+    "title": "疗愈不止于医院之内",
+    "description": "一切始于本德地方政府（Bende LGA）的一次癌症宣传游行。从那时起，它发展成为一场基层运动——与地方政府、医疗协会和社区领袖合作，确保关怀真正送达需要的人，而不是让他们四处奔波寻求帮助。",
+    "imageAlt": "社区健康研讨会"
+  },
+  "team": {
+    "eyebrow": "基金会背后的人们",
+    "title": "认识推动这项工作的人们",
+    "description": "这些共同发起人、卫生主管部门代表和合作伙伴的名字，均出现在我们自己的外展宣传材料中。",
+    "members": {
+      "uwabunkonyeBassey": { "role": "本德地方政府市长" },
+      "euniceOjike": { "role": "Dr Uzumma Cares 主席" },
+      "mercyIgwe": { "role": "家庭全科医学，联合发起人" },
+      "josephineEmenekeOkorie": { "role": "环境科学家" },
+      "ugommaOkorieWright": { "role": "Munez Healthcare 创始人兼首席执行官" },
+      "iheadigboOluchi": { "role": "卫生主管部门秘书" },
+      "annetteElekwachi": { "role": "肿瘤诊断研究员" }
+    }
+  },
+  "leadership": {
+    "title": "基金会领导层",
+    "people": {
+      "uwabunkonyeBassey": {
+        "role": "本德地方政府市长",
+        "bio": "牵头与地方政府的合作，将外展团队直接带入每一个社区。"
+      },
+      "annetteElekwachi": {
+        "role": "英国牵头召集人，肿瘤学研究",
+        "bio": "将英国的肿瘤学研究与阿比亚州当地的基层筛查工作联系起来。"
+      },
+      "euniceOjike": {
+        "role": "Dr Uzumma Cares 主席",
+        "bio": "负责临床合作事务，并共同组织每年的外展活动和游行。"
+      }
+    }
+  },
+  "cta": {
+    "title": "帮助我们惠及下一个家庭",
+    "description": "每一笔捐款都能资助一次筛查、一台手术，或为一个今天急需帮助的家庭提供支持。",
+    "button": "立即捐款"
+  },
+  "pages": {
+    "about": {
+      "eyebrow": "关于我们",
+      "title": "一家以行动为本的基层基金会",
+      "intro": "The Macedonian Call Cancer Foundation 始于本德地方政府（Bende LGA）的一次癌症宣传游行。此后，它逐渐发展成为与地方政府、医疗协会和社区领袖持续合作的项目——致力于确保筛查、治疗和救助真正送达有需要的人。",
+      "introImageAlt": "基金会团队与志愿者",
+      "stats": {
+        "outreaches": "社区外展活动",
+        "households": "已惠及家庭",
+        "partners": "合作机构"
+      },
+      "missionTitle": "我们的使命",
+      "mission": "将癌症筛查、医疗支持和救助直接送到那些无力负担医疗费用的家庭手中——从本德地方政府开始，并随着每一次外展活动不断扩展。",
+      "visionTitle": "我们的愿景",
+      "vision": "在这个社区里，没有人会因为负担不起而拖延治疗、放弃筛查，或独自面对疾病。",
+      "valuesEyebrow": "指引我们的信念",
+      "valuesTitle": "我们的价值观",
+      "values": {
+        "community": { "title": "以社区为先", "description": "我们主动走向人们，而不是坐等他们来找我们。" },
+        "dignity": { "title": "有尊严的关怀", "description": "我们支持的每一个家庭都受到尊重对待，而不是被当作施舍的对象。" },
+        "followThrough": { "title": "持续跟进到底", "description": "我们不止于一次探访——支持会持续到家庭情况稳定为止。" }
+      },
+      "bannerTitle": "想了解更多我们的工作方式吗？"
+    },
+    "whatWeDo": {
+      "eyebrow": "我们的工作",
+      "title": "让关怀走到人们身边",
+      "description": "从筛查到手术，再到持续的家庭支持——这就是我们的工作方式。",
+      "processEyebrow": "我们的流程",
+      "processTitle": "每一次外展活动是如何进行的",
+      "bannerTitle": "你身边有需要帮助的家庭吗？",
+      "reachOut": "联系我们"
+    },
+    "team": {
+      "eyebrow": "我们的团队",
+      "title": "每一次外展活动背后的人们",
+      "description": "正是这些共同发起人、卫生主管部门代表和合作伙伴，让这项工作得以实现。"
+    },
+    "stories": {
+      "eyebrow": "来自一线的故事",
+      "title": "我们外展活动中的故事",
+      "items": {
+        "walk": {
+          "tag": "外展活动",
+          "title": "癌症宣传游行走进本德地方政府",
+          "excerpt": "数百人参加了这场年度游行，推动各个社区开展早期筛查。"
+        },
+        "screening": {
+          "tag": "筛查",
+          "title": "志愿者协调挨家挨户筛查",
+          "excerpt": "近距离了解筛查团队如何规划并开展每一次探访。"
+        },
+        "symposium": {
+          "tag": "健康教育",
+          "title": "关于早期发现的社区研讨会",
+          "excerpt": "医护人员与康复者分享了早期发现究竟带来了怎样的改变。"
+        },
+        "partnership": {
+          "tag": "合作伙伴",
+          "title": "医学女性协会加入外展行动",
+          "excerpt": "一项新的临床合作为今年的游行带来了更多人手。"
+        }
+      }
+    },
+    "getInvolved": {
+      "eyebrow": "参与其中",
+      "title": "这项工作中也有你的位置",
+      "volunteerTitle": "成为志愿者",
+      "volunteerDescription": "加入我们的外展活动日——协助筛查、后勤保障或社区动员。",
+      "volunteerCta": "报名成为志愿者",
+      "partnerTitle": "成为合作伙伴",
+      "partnerDescription": "与我们并肩合作的医疗机构、地方政府和各类组织。",
+      "partnerCta": "洽谈合作事宜",
+      "partnersEyebrow": "我们的合作伙伴"
+    },
+    "donate": {
+      "eyebrow": "捐款",
+      "title": "每一份善款都在资助真实的关怀",
+      "description": "在线支付（Paystack/Flutterwave）即将上线。目前，我们通过银行转账直接接收捐款。",
+      "bankDetailsTitle": "银行转账信息",
+      "bankName": "银行名称",
+      "accountName": "账户名称",
+      "accountNumber": "账户号码",
+      "note": "请保留您的转账凭证——我们的团队成员将与您联系以确认收款，并致上感谢。"
+    },
+    "contact": {
+      "eyebrow": "联系我们",
+      "title": "联系我们",
+      "description": "无论是提问、洽谈合作，还是有家庭需要帮助——请通过以下方式联系我们。",
+      "nameLabel": "姓名",
+      "emailLabel": "电子邮箱",
+      "messageLabel": "留言",
+      "directContactTitle": "直接联系方式"
+    }
+  }
+}

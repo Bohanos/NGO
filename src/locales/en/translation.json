@@ -1,0 +1,208 @@
+{
+  "common": {
+    "donate": "Donate",
+    "readMore": "Read More",
+    "learnOurStory": "Learn Our Story",
+    "seeWhatWeDo": "See What We Do",
+    "supportAFamily": "Support a Family",
+    "seeOurWork": "See Our Work",
+    "sendMessage": "Send Message",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "photoComingSoon": "Photo coming soon",
+    "imagePending": "Image pending",
+    "openMenu": "Open menu",
+    "portraitOf": "Portrait of {{name}}",
+    "partnerPlaceholder": "Partner {{number}}"
+  },
+  "nav": {
+    "whoWeAre": "Who We Are",
+    "whatWeDo": "What We Do",
+    "ourTeam": "Our Team",
+    "stories": "Stories",
+    "getInvolved": "Get Involved",
+    "dropdown": {
+      "screening": "Cancer Awareness & Screening",
+      "surgery": "Medical & Surgery Support",
+      "family": "Child & Family Support",
+      "outreach": "Community Outreach"
+    }
+  },
+  "footer": {
+    "tagline": "A grassroots foundation partnering with Bende LGA to bring cancer screening, medical support, and relief to families who need it most.",
+    "becomeADonor": "Become a Donor",
+    "explore": "EXPLORE",
+    "getInvolved": "GET INVOLVED",
+    "connect": "CONNECT",
+    "contact": "Contact",
+    "volunteer": "Volunteer",
+    "partnerWithUs": "Partner With Us",
+    "copyright": "The Macedonian Call Cancer Foundation. All rights reserved.",
+    "privacy": "Privacy",
+    "accessibility": "Accessibility",
+    "location": "Bende LGA, Abia State"
+  },
+  "hero": {
+    "eyebrow": "GRASSROOTS HEALTH & RELIEF · ABIA STATE",
+    "titleLine1": "Restoring Hope,",
+    "titleHighlight": "Rebuilding Lives",
+    "titleLine2": "One Family at a Time.",
+    "description": "We reach families who can't afford screening, surgery, or basic care — bringing medical support and relief straight into the community.",
+    "mainPhotoAlt": "Community outreach walk",
+    "insetPhotoAlt": "Volunteers at outreach event"
+  },
+  "approach": {
+    "eyebrow": "OUR APPROACH",
+    "title": "How help reaches every doorstep",
+    "steps": {
+      "reach": { "title": "Reach", "description": "We go house-to-house across wards and villages." },
+      "screenEducate": { "title": "Screen & Educate", "description": "Free on-site screening and health education." },
+      "supportTreat": { "title": "Support & Treat", "description": "Covering surgery, medication, and care costs." },
+      "followUp": { "title": "Follow Up", "description": "Ongoing support until the family is stable." }
+    }
+  },
+  "services": {
+    "eyebrow": "WHAT WE DO",
+    "title": "Providing essential care, restoring dignity",
+    "screening": { "title": "Cancer Screening & Awareness", "description": "Free community screening, symposiums, and early-detection education." },
+    "surgery": { "title": "Surgery & Medical Support", "description": "Covering the cost of surgery and treatment for families who can't afford care." },
+    "family": { "title": "Child & Family Relief", "description": "Support for children and households facing hardship, illness, or loss." }
+  },
+  "story": {
+    "eyebrow": "OUR STORY",
+    "title": "Healing Beyond the Hospital Walls",
+    "description": "What started as a single cancer awareness walk in Bende LGA has grown into a grassroots movement — partnering with local government, medical associations, and community leaders to make sure care reaches people, not the other way around.",
+    "imageAlt": "Community health symposium"
+  },
+  "team": {
+    "eyebrow": "BEHIND THE FOUNDATION",
+    "title": "Meet the people driving this work",
+    "description": "Co-conveners, health authorities, and partners named on our own outreach materials.",
+    "members": {
+    "uwabunkonyeBassey": { "role": "Mayor, Bende L.G.A" },
+    "euniceOjike": { "role": "President, Dr Uzumma Cares" },
+    "mercyIgwe": { "role": "Family Medicine General, Co-Convener" },
+    "josephineEmenekeOkorie": { "role": "Environmental Scientist" },
+    "ugommaOkorieWright": { "role": "Founder/CEO, Munez Healthcare" },
+    "iheadigboOluchi": { "role": "Health Authority Secretary" },
+    "annetteElekwachi": { "role": "Oncology Diagnostic Researcher" }
+    }
+  },
+  "leadership": {
+    "title": "Foundation Leadership",
+    "people": {
+      "uwabunkonyeBassey": {
+        "role": "Mayor, Bende L.G.A",
+        "bio": "Leading the local government partnership that brings outreach teams directly into every ward."
+      },
+      "annetteElekwachi": {
+        "role": "UK Lead Convener, Oncology Research",
+        "bio": "Bridges UK-based oncology research with grassroots screening on the ground in Abia State."
+      },
+      "euniceOjike": {
+        "role": "President, Dr Uzumma Cares",
+        "bio": "Oversees clinical partnerships and co-conveners the annual outreach and walk."
+      }
+    }
+  },
+  "cta": {
+    "title": "Help Us Reach the Next Family",
+    "description": "Every donation funds a screening, a surgery, or a household that needed help today.",
+    "button": "Donate Now"
+  },
+  "pages": {
+    "about": {
+      "eyebrow": "WHO WE ARE",
+      "title": "A grassroots foundation built on showing up",
+      "intro": "The Macedonian Call Cancer Foundation started with a single cancer awareness walk in Bende LGA. Since then, it's grown into an ongoing partnership with local government, medical associations, and community leaders — working to make sure screening, treatment, and relief actually reach the people who need them.",
+      "introImageAlt": "Foundation team and volunteers",
+      "stats": {
+        "outreaches": "Community outreaches",
+        "households": "Households reached",
+        "partners": "Partner organisations"
+      },
+      "missionTitle": "Our Mission",
+      "mission": "To bring cancer screening, medical support, and relief directly to families who cannot otherwise afford care — starting with Bende LGA and growing with every outreach.",
+      "visionTitle": "Our Vision",
+      "vision": "A community where no one delays treatment, skips screening, or faces illness alone because of what they can't afford.",
+      "valuesEyebrow": "WHAT GUIDES US",
+      "valuesTitle": "Our Values",
+      "values": {
+        "community": { "title": "Community First", "description": "We go where people are, instead of waiting for them to find us." },
+        "dignity": { "title": "Dignity in Care", "description": "Every family we support is treated with respect, not charity as pity." },
+        "followThrough": { "title": "Follow Through", "description": "We don't stop at a single visit — support continues until a family is stable." }
+      },
+      "bannerTitle": "Want to know more about how we work?"
+    },
+    "whatWeDo": {
+      "eyebrow": "WHAT WE DO",
+      "title": "Care that meets people where they are",
+      "description": "From screening to surgery to ongoing family support — here's how we work.",
+      "processEyebrow": "OUR PROCESS",
+      "processTitle": "How every outreach runs",
+      "bannerTitle": "Know a family that needs support?",
+      "reachOut": "Reach Out to Us"
+    },
+    "team": {
+      "eyebrow": "OUR TEAM",
+      "title": "The people behind every outreach",
+      "description": "Co-conveners, health authorities, and partners who make this work possible."
+    },
+    "stories": {
+      "eyebrow": "FROM THE FIELD",
+      "title": "Stories from our outreach",
+      "items": {
+        "walk": {
+          "tag": "OUTREACH",
+          "title": "Cancer Awareness Walk moves through Bende LGA",
+          "excerpt": "Hundreds joined the annual walk to push early screening across every ward."
+        },
+        "screening": {
+          "tag": "SCREENING",
+          "title": "Volunteers coordinate door-to-door screening",
+          "excerpt": "A closer look at how the screening teams plan and run each visit."
+        },
+        "symposium": {
+          "tag": "EDUCATION",
+          "title": "Community symposium on early detection",
+          "excerpt": "Health workers and survivors shared what early detection actually changed."
+        },
+        "partnership": {
+          "tag": "PARTNERSHIP",
+          "title": "Medical Women's Association joins the outreach",
+          "excerpt": "A new clinical partnership brought more hands to this year's walk."
+        }
+      }
+    },
+    "getInvolved": {
+      "eyebrow": "GET INVOLVED",
+      "title": "There's a place for you in this work",
+      "volunteerTitle": "Volunteer",
+      "volunteerDescription": "Join outreach days — screening support, logistics, or community mobilization.",
+      "volunteerCta": "Sign Up to Volunteer",
+      "partnerTitle": "Partner With Us",
+      "partnerDescription": "Medical bodies, local government, and organisations working alongside us.",
+      "partnerCta": "Discuss a Partnership",
+      "partnersEyebrow": "OUR PARTNERS"
+    },
+    "donate": {
+      "eyebrow": "DONATE",
+      "title": "Every gift funds real care",
+      "description": "Online payment (Paystack/Flutterwave) is coming soon. For now, donations are received via direct bank transfer.",
+      "bankDetailsTitle": "BANK TRANSFER DETAILS",
+      "bankName": "Bank Name",
+      "accountName": "Account Name",
+      "accountNumber": "Account Number",
+      "note": "Please keep your transfer receipt — a member of our team will reach out to confirm and send a thank-you note."
+    },
+    "contact": {
+      "eyebrow": "CONTACT",
+      "title": "Get in touch",
+      "description": "Questions, partnership requests, or a family that needs support — reach out below.",
+      "nameLabel": "Name",
+      "emailLabel": "Email",
+      "messageLabel": "Message",
+      "directContactTitle": "Direct Contact"
+    }
+  }
+}

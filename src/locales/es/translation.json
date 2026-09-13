@@ -1,0 +1,208 @@
+{
+  "common": {
+    "donate": "Donar",
+    "readMore": "Leer más",
+    "learnOurStory": "Conoce nuestra historia",
+    "seeWhatWeDo": "Ver qué hacemos",
+    "supportAFamily": "Apoya a una familia",
+    "seeOurWork": "Ver nuestro trabajo",
+    "sendMessage": "Enviar mensaje",
+    "copy": "Copiar",
+    "copied": "¡Copiado!",
+    "photoComingSoon": "Foto próximamente",
+    "imagePending": "Imagen pendiente",
+    "openMenu": "Abrir menú",
+    "portraitOf": "Retrato de {{name}}",
+    "partnerPlaceholder": "Socio {{number}}"
+  },
+  "nav": {
+    "whoWeAre": "Quiénes somos",
+    "whatWeDo": "Qué hacemos",
+    "ourTeam": "Nuestro equipo",
+    "stories": "Historias",
+    "getInvolved": "Participa",
+    "dropdown": {
+      "screening": "Concienciación y detección del cáncer",
+      "surgery": "Apoyo médico y quirúrgico",
+      "family": "Apoyo a la infancia y la familia",
+      "outreach": "Trabajo comunitario"
+    }
+  },
+  "footer": {
+    "tagline": "Una fundación de base que colabora con el Gobierno Local de Bende (LGA) para llevar detección del cáncer, apoyo médico y ayuda a las familias que más lo necesitan.",
+    "becomeADonor": "Conviértete en donante",
+    "explore": "EXPLORAR",
+    "getInvolved": "PARTICIPA",
+    "connect": "CONTACTO",
+    "contact": "Contacto",
+    "volunteer": "Voluntariado",
+    "partnerWithUs": "Sé nuestro socio",
+    "copyright": "The Macedonian Call Cancer Foundation. Todos los derechos reservados.",
+    "privacy": "Privacidad",
+    "accessibility": "Accesibilidad",
+    "location": "Bende LGA, Estado de Abia"
+  },
+  "hero": {
+    "eyebrow": "SALUD Y AYUDA COMUNITARIA · ESTADO DE ABIA",
+    "titleLine1": "Restaurando la esperanza,",
+    "titleHighlight": "reconstruyendo vidas",
+    "titleLine2": "una familia a la vez.",
+    "description": "Llegamos a familias que no pueden pagar exámenes, cirugías o atención básica, llevando apoyo médico y ayuda directamente a la comunidad.",
+    "mainPhotoAlt": "Caminata de sensibilización comunitaria",
+    "insetPhotoAlt": "Voluntarios en un evento comunitario"
+  },
+  "approach": {
+    "eyebrow": "NUESTRO ENFOQUE",
+    "title": "Cómo la ayuda llega a cada puerta",
+    "steps": {
+      "reach": { "title": "Llegar", "description": "Vamos casa por casa por barrios y aldeas." },
+      "screenEducate": { "title": "Detectar y educar", "description": "Detección gratuita en el lugar y educación sobre salud." },
+      "supportTreat": { "title": "Apoyar y tratar", "description": "Cubrimos los costos de cirugía, medicamentos y atención." },
+      "followUp": { "title": "Dar seguimiento", "description": "Apoyo continuo hasta que la familia esté estable." }
+    }
+  },
+  "services": {
+    "eyebrow": "QUÉ HACEMOS",
+    "title": "Brindando atención esencial, restaurando la dignidad",
+    "screening": { "title": "Detección y concienciación del cáncer", "description": "Detección comunitaria gratuita, simposios y educación sobre la detección temprana." },
+    "surgery": { "title": "Cirugía y apoyo médico", "description": "Cubrimos el costo de la cirugía y el tratamiento para familias que no pueden costear la atención." },
+    "family": { "title": "Ayuda para la infancia y la familia", "description": "Apoyo para niños y hogares que enfrentan dificultades, enfermedad o pérdida." }
+  },
+  "story": {
+    "eyebrow": "NUESTRA HISTORIA",
+    "title": "Sanar más allá de las paredes del hospital",
+    "description": "Todo comenzó con una simple caminata de concienciación sobre el cáncer en Bende LGA. Desde entonces, se ha convertido en un movimiento de base, en colaboración con el gobierno local, asociaciones médicas y líderes comunitarios, para asegurar que la atención llegue a las personas, y no al revés.",
+    "imageAlt": "Simposio de salud comunitaria"
+  },
+  "team": {
+    "eyebrow": "DETRÁS DE LA FUNDACIÓN",
+    "title": "Conoce a las personas detrás de este trabajo",
+    "description": "Coorganizadores, autoridades de salud y socios mencionados en nuestro propio material de difusión.",
+    "members": {
+      "uwabunkonyeBassey": { "role": "Alcalde, Bende L.G.A" },
+      "euniceOjike": { "role": "Presidenta, Dr Uzumma Cares" },
+      "mercyIgwe": { "role": "Medicina familiar general, coorganizadora" },
+      "josephineEmenekeOkorie": { "role": "Científica ambiental" },
+      "ugommaOkorieWright": { "role": "Fundadora/CEO, Munez Healthcare" },
+      "iheadigboOluchi": { "role": "Secretaria de Autoridades de Salud" },
+      "annetteElekwachi": { "role": "Investigadora en diagnóstico oncológico" }
+    }
+  },
+  "leadership": {
+    "title": "Liderazgo de la Fundación",
+    "people": {
+      "uwabunkonyeBassey": {
+        "role": "Alcalde, Bende L.G.A",
+        "bio": "Lidera la asociación con el gobierno local que lleva a los equipos de campo directamente a cada barrio."
+      },
+      "annetteElekwachi": {
+        "role": "Coordinadora líder en el Reino Unido, investigación oncológica",
+        "bio": "Conecta la investigación oncológica del Reino Unido con la detección comunitaria sobre el terreno en el Estado de Abia."
+      },
+      "euniceOjike": {
+        "role": "Presidenta, Dr Uzumma Cares",
+        "bio": "Supervisa las alianzas clínicas y coorganiza la caminata y jornada anual."
+      }
+    }
+  },
+  "cta": {
+    "title": "Ayúdanos a llegar a la próxima familia",
+    "description": "Cada donación financia un examen, una cirugía o un hogar que necesitaba ayuda hoy.",
+    "button": "Donar ahora"
+  },
+  "pages": {
+    "about": {
+      "eyebrow": "QUIÉNES SOMOS",
+      "title": "Una fundación de base construida sobre la acción",
+      "intro": "The Macedonian Call Cancer Foundation comenzó con una simple caminata de concienciación sobre el cáncer en Bende LGA. Desde entonces, se ha convertido en una alianza continua con el gobierno local, asociaciones médicas y líderes comunitarios, trabajando para que la detección, el tratamiento y la ayuda realmente lleguen a quienes los necesitan.",
+      "introImageAlt": "Equipo de la fundación y voluntarios",
+      "stats": {
+        "outreaches": "Jornadas comunitarias",
+        "households": "Hogares alcanzados",
+        "partners": "Organizaciones aliadas"
+      },
+      "missionTitle": "Nuestra misión",
+      "mission": "Llevar detección del cáncer, apoyo médico y ayuda directamente a familias que de otro modo no podrían costear la atención, comenzando en Bende LGA y creciendo con cada jornada.",
+      "visionTitle": "Nuestra visión",
+      "vision": "Una comunidad donde nadie retrase un tratamiento, se salte una detección o enfrente una enfermedad en soledad por no poder costearla.",
+      "valuesEyebrow": "LO QUE NOS GUÍA",
+      "valuesTitle": "Nuestros valores",
+      "values": {
+        "community": { "title": "La comunidad primero", "description": "Vamos hacia donde está la gente, en lugar de esperar a que nos encuentren." },
+        "dignity": { "title": "Dignidad en la atención", "description": "Cada familia que apoyamos es tratada con respeto, no como caridad por lástima." },
+        "followThrough": { "title": "Compromiso hasta el final", "description": "No nos detenemos en una sola visita: el apoyo continúa hasta que la familia esté estable." }
+      },
+      "bannerTitle": "¿Quieres saber más sobre cómo trabajamos?"
+    },
+    "whatWeDo": {
+      "eyebrow": "QUÉ HACEMOS",
+      "title": "Atención que llega hasta donde está la gente",
+      "description": "Desde la detección hasta la cirugía y el apoyo familiar continuo: así es como trabajamos.",
+      "processEyebrow": "NUESTRO PROCESO",
+      "processTitle": "Cómo se desarrolla cada jornada",
+      "bannerTitle": "¿Conoces a una familia que necesita apoyo?",
+      "reachOut": "Contáctanos"
+    },
+    "team": {
+      "eyebrow": "NUESTRO EQUIPO",
+      "title": "Las personas detrás de cada jornada",
+      "description": "Coorganizadores, autoridades de salud y socios que hacen posible este trabajo."
+    },
+    "stories": {
+      "eyebrow": "DESDE EL TERRENO",
+      "title": "Historias de nuestras jornadas comunitarias",
+      "items": {
+        "walk": {
+          "tag": "JORNADA",
+          "title": "La caminata de concienciación sobre el cáncer recorre Bende LGA",
+          "excerpt": "Cientos de personas se unieron a la caminata anual para impulsar la detección temprana en cada barrio."
+        },
+        "screening": {
+          "tag": "DETECCIÓN",
+          "title": "Voluntarios coordinan detección puerta a puerta",
+          "excerpt": "Un vistazo a cómo los equipos de detección planifican y realizan cada visita."
+        },
+        "symposium": {
+          "tag": "EDUCACIÓN",
+          "title": "Simposio comunitario sobre detección temprana",
+          "excerpt": "Trabajadores de la salud y sobrevivientes compartieron lo que realmente cambió la detección temprana."
+        },
+        "partnership": {
+          "tag": "ALIANZA",
+          "title": "La Asociación de Mujeres Médicas se une a la jornada",
+          "excerpt": "Una nueva alianza clínica sumó más manos a la caminata de este año."
+        }
+      }
+    },
+    "getInvolved": {
+      "eyebrow": "PARTICIPA",
+      "title": "Hay un lugar para ti en este trabajo",
+      "volunteerTitle": "Voluntariado",
+      "volunteerDescription": "Únete a nuestras jornadas: apoyo en detección, logística o movilización comunitaria.",
+      "volunteerCta": "Regístrate como voluntario",
+      "partnerTitle": "Sé nuestro socio",
+      "partnerDescription": "Instituciones médicas, gobierno local y organizaciones que trabajan junto a nosotros.",
+      "partnerCta": "Conversemos sobre una alianza",
+      "partnersEyebrow": "NUESTROS SOCIOS"
+    },
+    "donate": {
+      "eyebrow": "DONAR",
+      "title": "Cada donación financia atención real",
+      "description": "El pago en línea (Paystack/Flutterwave) llegará pronto. Por ahora, las donaciones se reciben por transferencia bancaria directa.",
+      "bankDetailsTitle": "DATOS BANCARIOS",
+      "bankName": "Nombre del banco",
+      "accountName": "Nombre de la cuenta",
+      "accountNumber": "Número de cuenta",
+      "note": "Conserva tu comprobante de transferencia: un miembro de nuestro equipo se pondrá en contacto para confirmar y enviarte un mensaje de agradecimiento."
+    },
+    "contact": {
+      "eyebrow": "CONTACTO",
+      "title": "Ponte en contacto",
+      "description": "Preguntas, solicitudes de alianza o una familia que necesita apoyo: escríbenos a continuación.",
+      "nameLabel": "Nombre",
+      "emailLabel": "Correo electrónico",
+      "messageLabel": "Mensaje",
+      "directContactTitle": "Contacto directo"
+    }
+  }
+}

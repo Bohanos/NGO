@@ -1,0 +1,208 @@
+{
+  "common": {
+    "donate": "寄付する",
+    "readMore": "続きを読む",
+    "learnOurStory": "私たちの物語を見る",
+    "seeWhatWeDo": "私たちの活動を見る",
+    "supportAFamily": "家族を支援する",
+    "seeOurWork": "私たちの取り組みを見る",
+    "sendMessage": "メッセージを送る",
+    "copy": "コピー",
+    "copied": "コピーしました！",
+    "photoComingSoon": "写真は近日公開",
+    "imagePending": "画像準備中",
+    "openMenu": "メニューを開く",
+    "portraitOf": "{{name}} のポートレート",
+    "partnerPlaceholder": "パートナー {{number}}"
+  },
+  "nav": {
+    "whoWeAre": "私たちについて",
+    "whatWeDo": "私たちの活動",
+    "ourTeam": "私たちのチーム",
+    "stories": "ストーリー",
+    "getInvolved": "参加する",
+    "dropdown": {
+      "screening": "がん啓発とスクリーニング",
+      "surgery": "医療・手術支援",
+      "family": "子どもと家族への支援",
+      "outreach": "コミュニティ活動"
+    }
+  },
+  "footer": {
+    "tagline": "私たちはベンデ地方自治体（Bende LGA）と協力する草の根財団として、がん検診、医療支援、そして最も助けを必要とする家族への支援を届けています。",
+    "becomeADonor": "寄付者になる",
+    "explore": "探索する",
+    "getInvolved": "参加する",
+    "connect": "お問い合わせ",
+    "contact": "お問い合わせ",
+    "volunteer": "ボランティア",
+    "partnerWithUs": "パートナーになる",
+    "copyright": "The Macedonian Call Cancer Foundation. 無断複写・転載を禁じます。",
+    "privacy": "プライバシー",
+    "accessibility": "アクセシビリティ",
+    "location": "アビア州 ベンデ地方自治体"
+  },
+  "hero": {
+    "eyebrow": "草の根の健康支援・救援 · アビア州",
+    "titleLine1": "希望を取り戻し、",
+    "titleHighlight": "人生を立て直す",
+    "titleLine2": "一つの家族ずつ。",
+    "description": "検診や手術、基本的なケアを受けられない家族のもとへ私たちが出向き、医療支援と救援を直接コミュニティに届けています。",
+    "mainPhotoAlt": "コミュニティ啓発ウォーク",
+    "insetPhotoAlt": "アウトリーチイベントでのボランティア"
+  },
+  "approach": {
+    "eyebrow": "私たちのアプローチ",
+    "title": "支援がすべての家庭に届くまで",
+    "steps": {
+      "reach": { "title": "訪問する", "description": "各地区や村を一軒一軒訪ねて回ります。" },
+      "screenEducate": { "title": "検診と啓発", "description": "現地での無料検診と健康教育を行います。" },
+      "supportTreat": { "title": "支援と治療", "description": "手術費、薬代、医療費を負担します。" },
+      "followUp": { "title": "継続的なフォロー", "description": "家族の生活が安定するまで支援を続けます。" }
+    }
+  },
+  "services": {
+    "eyebrow": "私たちの活動",
+    "title": "必要不可欠なケアを届け、尊厳を取り戻す",
+    "screening": { "title": "がん検診と啓発", "description": "無料の地域検診、シンポジウム、早期発見に関する教育を行っています。" },
+    "surgery": { "title": "手術・医療支援", "description": "医療費を負担できない家族のために、手術や治療の費用を支援します。" },
+    "family": { "title": "子どもと家族への支援", "description": "困難、病気、喪失に直面する子どもや家庭を支援します。" }
+  },
+  "story": {
+    "eyebrow": "私たちの物語",
+    "title": "病院の壁を越えて癒す",
+    "description": "始まりは、ベンデ地方自治体（Bende LGA）で行われたひとつのがん啓発ウォークでした。それ以来、地方自治体や医療団体、地域のリーダーたちと協力する草の根運動へと発展し、支援が人々のもとへ確実に届くよう取り組んでいます。",
+    "imageAlt": "地域健康シンポジウム"
+  },
+  "team": {
+    "eyebrow": "財団を支える人々",
+    "title": "この活動を支える人々をご紹介します",
+    "description": "共同世話人、保健当局、そして私たち自身のアウトリーチ資料に名前が記載されているパートナーの方々です。",
+    "members": {
+      "uwabunkonyeBassey": { "role": "ベンデ地方自治体 首長" },
+      "euniceOjike": { "role": "Dr Uzumma Cares 会長" },
+      "mercyIgwe": { "role": "家庭医学一般、共同世話人" },
+      "josephineEmenekeOkorie": { "role": "環境科学者" },
+      "ugommaOkorieWright": { "role": "Munez Healthcare 創設者兼CEO" },
+      "iheadigboOluchi": { "role": "保健当局書記官" },
+      "annetteElekwachi": { "role": "腫瘍診断研究員" }
+    }
+  },
+  "leadership": {
+    "title": "財団の運営陣",
+    "people": {
+      "uwabunkonyeBassey": {
+        "role": "ベンデ地方自治体 首長",
+        "bio": "地方自治体との連携を主導し、アウトリーチチームを各地区へ直接届けています。"
+      },
+      "annetteElekwachi": {
+        "role": "英国リード世話人、腫瘍学研究",
+        "bio": "英国の腫瘍学研究とアビア州における現地検診活動をつなぐ役割を担っています。"
+      },
+      "euniceOjike": {
+        "role": "Dr Uzumma Cares 会長",
+        "bio": "臨床パートナーシップを統括し、年次アウトリーチとウォークを共同で運営しています。"
+      }
+    }
+  },
+  "cta": {
+    "title": "次の家族に手を差し伸べるために",
+    "description": "ご寄付一つひとつが、今日助けを必要としている検診・手術・家庭を支えます。",
+    "button": "今すぐ寄付する"
+  },
+  "pages": {
+    "about": {
+      "eyebrow": "私たちについて",
+      "title": "行動から生まれた草の根財団",
+      "intro": "The Macedonian Call Cancer Foundationは、ベンデ地方自治体（Bende LGA）で行われたひとつのがん啓発ウォークから始まりました。それ以来、地方自治体、医療団体、地域のリーダーたちとの継続的な協力関係へと発展し、検診・治療・支援が本当に必要な人々に届くよう取り組んでいます。",
+      "introImageAlt": "財団のチームとボランティア",
+      "stats": {
+        "outreaches": "コミュニティ活動",
+        "households": "支援した世帯",
+        "partners": "提携団体"
+      },
+      "missionTitle": "私たちの使命",
+      "mission": "医療費を負担できない家族に、がん検診、医療支援、救援を直接届けること——ベンデ地方自治体から始まり、活動のたびに広がっています。",
+      "visionTitle": "私たちのビジョン",
+      "vision": "誰も費用の心配から治療を先延ばしにしたり、検診を諦めたり、病と一人で向き合ったりすることのない社会。",
+      "valuesEyebrow": "私たちを導く価値観",
+      "valuesTitle": "私たちの価値観",
+      "values": {
+        "community": { "title": "コミュニティ第一", "description": "人々が私たちを見つけるのを待つのではなく、私たちの方から出向きます。" },
+        "dignity": { "title": "尊厳あるケア", "description": "私たちが支援するすべての家族を、同情による施しとしてではなく、敬意を持って迎えます。" },
+        "followThrough": { "title": "最後までやり遂げる", "description": "一度の訪問で終わらせず、家族の生活が安定するまで支援を続けます。" }
+      },
+      "bannerTitle": "私たちの活動についてもっと知りたいですか？"
+    },
+    "whatWeDo": {
+      "eyebrow": "私たちの活動",
+      "title": "人々のもとへ届くケア",
+      "description": "検診から手術、継続的な家族支援まで——私たちの取り組みをご紹介します。",
+      "processEyebrow": "私たちのプロセス",
+      "processTitle": "アウトリーチ活動の流れ",
+      "bannerTitle": "支援を必要としている家族をご存知ですか？",
+      "reachOut": "お問い合わせください"
+    },
+    "team": {
+      "eyebrow": "私たちのチーム",
+      "title": "すべてのアウトリーチ活動を支える人々",
+      "description": "この活動を可能にしている共同世話人、保健当局、パートナーの方々です。"
+    },
+    "stories": {
+      "eyebrow": "現場からの声",
+      "title": "私たちのアウトリーチ活動の物語",
+      "items": {
+        "walk": {
+          "tag": "アウトリーチ",
+          "title": "がん啓発ウォークがベンデ地方自治体を巡る",
+          "excerpt": "数百人が年次ウォークに参加し、各地区での早期検診を後押ししました。"
+        },
+        "screening": {
+          "tag": "検診",
+          "title": "ボランティアが戸別検診を調整",
+          "excerpt": "検診チームがどのように訪問を計画し、実施しているかをご紹介します。"
+        },
+        "symposium": {
+          "tag": "啓発教育",
+          "title": "早期発見に関する地域シンポジウム",
+          "excerpt": "医療従事者と経験者が、早期発見によって実際に何が変わったかを語りました。"
+        },
+        "partnership": {
+          "tag": "パートナーシップ",
+          "title": "医療女性協会がアウトリーチに参加",
+          "excerpt": "新たな臨床パートナーシップにより、今年のウォークにさらに多くの支援が加わりました。"
+        }
+      }
+    },
+    "getInvolved": {
+      "eyebrow": "参加する",
+      "title": "この活動には、あなたの居場所があります",
+      "volunteerTitle": "ボランティアになる",
+      "volunteerDescription": "検診サポート、物流、地域動員など、アウトリーチ活動の日にぜひご参加ください。",
+      "volunteerCta": "ボランティア登録をする",
+      "partnerTitle": "パートナーになる",
+      "partnerDescription": "私たちと共に活動する医療機関、地方自治体、各種団体です。",
+      "partnerCta": "パートナーシップについて相談する",
+      "partnersEyebrow": "私たちのパートナー"
+    },
+    "donate": {
+      "eyebrow": "寄付する",
+      "title": "すべての寄付が実際のケアを支えます",
+      "description": "オンライン決済（Paystack/Flutterwave）は近日対応予定です。現在は銀行振込にて寄付を受け付けています。",
+      "bankDetailsTitle": "振込先情報",
+      "bankName": "銀行名",
+      "accountName": "口座名義",
+      "accountNumber": "口座番号",
+      "note": "振込明細は保管しておいてください。担当者より確認とお礼のご連絡をいたします。"
+    },
+    "contact": {
+      "eyebrow": "お問い合わせ",
+      "title": "お問い合わせ",
+      "description": "ご質問、提携のご相談、支援が必要なご家族について——下記よりお気軽にご連絡ください。",
+      "nameLabel": "お名前",
+      "emailLabel": "メールアドレス",
+      "messageLabel": "メッセージ",
+      "directContactTitle": "直接のお問い合わせ先"
+    }
+  }
+}

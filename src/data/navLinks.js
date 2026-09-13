@@ -1,34 +1,37 @@
+// Stores translation KEYS, not literal text — this file can't call t()
+// since it's plain JS, not a React component. Navbar.jsx and Footer.jsx
+// resolve these keys via t() at render time.
 export const navItems = [
-  { label: 'Who We Are', href: '/about' },
+  { key: 'nav.whoWeAre', href: '/about' },
   {
-    label: 'What We Do',
+    key: 'nav.whatWeDo',
     dropdown: [
-      { label: 'Cancer Awareness & Screening', href: '/what-we-do#screening' },
-      { label: 'Medical & Surgery Support', href: '/what-we-do#surgery' },
-      { label: 'Child & Family Support', href: '/what-we-do#family' },
-      { label: 'Community Outreach', href: '/what-we-do#outreach' },
+      { key: 'nav.dropdown.screening', href: '/what-we-do#screening' },
+      { key: 'nav.dropdown.surgery', href: '/what-we-do#surgery' },
+      { key: 'nav.dropdown.family', href: '/what-we-do#family' },
+      { key: 'nav.dropdown.outreach', href: '/what-we-do#outreach' },
     ],
   },
-  { label: 'Our Team', href: '/team' },
-  { label: 'Stories', href: '/stories' },
+  { key: 'nav.ourTeam', href: '/team' },
+  { key: 'nav.stories', href: '/stories' },
 ]
 
 export const footerColumns = [
   {
-    heading: 'EXPLORE',
+    headingKey: 'footer.explore',
     links: [
-      { label: 'Who We Are', href: '/about' },
-      { label: 'What We Do', href: '/what-we-do' },
-      { label: 'Our Team', href: '/team' },
-      { label: 'Contact', href: '/contact' },
+      { key: 'nav.whoWeAre', href: '/about' },
+      { key: 'nav.whatWeDo', href: '/what-we-do' },
+      { key: 'nav.ourTeam', href: '/team' },
+      { key: 'footer.contact', href: '/contact' },
     ],
   },
   {
-    heading: 'GET INVOLVED',
+    headingKey: 'footer.getInvolved',
     links: [
-      { label: 'Donate', href: '/donate' },
-      { label: 'Volunteer', href: '/get-involved' },
-      { label: 'Partner With Us', href: '/get-involved#partners' },
+      { key: 'common.donate', href: '/donate' },
+      { key: 'footer.volunteer', href: '/get-involved' },
+      { key: 'footer.partnerWithUs', href: '/get-involved#partners' },
     ],
   },
 ]

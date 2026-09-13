@@ -1,16 +1,19 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import ThemeToggle from './ThemeToggle'
+import LanguageSwitcher from '../ui/LanguageSwitcher'
 import { navItems } from '../../data/navLinks'
 
 export default function Navbar() {
+  const { t } = useTranslation()
   const [mobileOpen, setMobileOpen] = useState(false)
   const [mobileDropdownOpen, setMobileDropdownOpen] = useState(false)
 
   return (
     <nav className="sticky top-0 z-50 border-b border-primary/10 bg-cream/90 px-6 py-3.5 backdrop-blur-md md:px-10">
       <div className="mx-auto flex max-w-7xl items-center justify-between">
-        {/* Brand */}
+        {/* Brand — proper noun, intentionally not run through t() */}
         <Link to="/" className="flex items-center gap-3">
           <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border-2 border-dashed border-primary text-center text-[8px] font-bold leading-tight text-primary">
             LOGO
@@ -26,11 +29,11 @@ export default function Navbar() {
         {/* Desktop links */}
         <ul className="hidden items-center gap-8 md:flex">
           {navItems.map((item) => (
-            <li key={item.label} className="group relative">
+            <li key={item.key} className="group relative">
               {item.dropdown ? (
                 <>
                   <button className="flex items-center gap-1.5 py-2 text-sm font-semibold text-text">
-                    {item.label}
+                    {t(item.key)}
                     <svg
                       viewBox="0 0 24 24"
                       className="h-3 w-3 stroke-current transition-transform duration-300 group-hover:rotate-180"
@@ -49,7 +52,7 @@ export default function Navbar() {
                   >
                     {item.dropdown.map((sub, i) => (
                       <Link
-                        key={sub.label}
+                        key={sub.key}
                         to={sub.href}
                         style={{ transitionDelay: `${i * 40}ms` }}
                         className="flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-medium text-text
@@ -58,7 +61,7 @@ export default function Navbar() {
                         <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-gradient-to-br from-primary to-coral text-xs text-white">
                           ◆
                         </span>
-                        {sub.label}
+                        {t(sub.key)}
                       </Link>
                     ))}
                   </div>
@@ -70,7 +73,7 @@ export default function Navbar() {
                              after:h-0.5 after:w-0 after:bg-gradient-to-r after:from-primary after:to-coral
                              after:transition-all after:duration-300 hover:after:w-full"
                 >
-                  {item.label}
+                  {t(item.key)}
                 </Link>
               )}
             </li>
@@ -79,18 +82,25 @@ export default function Navbar() {
 
         {/* Right side */}
         <div className="flex items-center gap-3">
+          {/* Only rendered from sm: up — the mobile panel below has its own copy,
+              so it must not also show here on small screens (would appear twice). */}
+          <div className="hidden sm:block">
+            <LanguageSwitcher />
+          </div>
+
           <ThemeToggle />
+
           <Link
             to="/donate"
             className="hidden rounded-full bg-gradient-to-r from-primary to-primary-dark px-6 py-2.5 text-sm
                        font-bold text-white shadow-lg shadow-primary/30 transition-transform hover:-translate-y-0.5 sm:inline-block"
           >
-            Donate
+            {t('common.donate')}
           </Link>
 
           {/* Mobile hamburger */}
           <button
-            aria-label="Open menu"
+            aria-label={t('common.openMenu')}
             onClick={() => setMobileOpen((o) => !o)}
             className="flex h-9 w-9 flex-col items-center justify-center gap-1.5 md:hidden"
           >
@@ -121,14 +131,14 @@ export default function Navbar() {
       >
         <ul className="mt-4 flex flex-col gap-1 border-t border-primary/10 pt-4">
           {navItems.map((item) => (
-            <li key={item.label}>
+            <li key={item.key}>
               {item.dropdown ? (
                 <>
                   <button
                     onClick={() => setMobileDropdownOpen((o) => !o)}
                     className="flex w-full items-center justify-between border-b border-primary/5 py-3.5 text-sm font-semibold text-text"
                   >
-                    {item.label}
+                    {t(item.key)}
                     <svg
                       viewBox="0 0 24 24"
                       className={`h-3.5 w-3.5 stroke-current transition-transform duration-300 ${
@@ -148,11 +158,11 @@ export default function Navbar() {
                   >
                     {item.dropdown.map((sub) => (
                       <Link
-                        key={sub.label}
+                        key={sub.key}
                         to={sub.href}
                         className="block py-2.5 text-sm text-text/80"
                       >
-                        {sub.label}
+                        {t(sub.key)}
                       </Link>
                     ))}
                   </div>
@@ -162,16 +172,23 @@ export default function Navbar() {
                   to={item.href}
                   className="block border-b border-primary/5 py-3.5 text-sm font-semibold text-text"
                 >
-                  {item.label}
+                  {t(item.key)}
                 </Link>
               )}
             </li>
           ))}
+
+          {/* Mobile-only copy — desktop instance is hidden below sm: (see above),
+              so this is the sole place it renders on small screens. */}
+          <div className="mt-4 flex justify-center border-t border-primary/10 pt-4 sm:hidden">
+            <LanguageSwitcher />
+          </div>
+
           <Link
             to="/donate"
             className="mt-4 rounded-full bg-gradient-to-r from-primary to-primary-dark px-6 py-3 text-center text-sm font-bold text-white"
           >
-            Donate
+            {t('common.donate')}
           </Link>
         </ul>
       </div>

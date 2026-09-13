@@ -1,8 +1,11 @@
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import SectionHeading from '../components/ui/SectionHeading'
 import Button from '../components/ui/Button'
+import Reveal from '../components/ui/Reveal'
 
 export default function Contact() {
+  const { t } = useTranslation()
   const [form, setForm] = useState({ name: '', email: '', message: '' })
 
   const handleChange = (e) =>
@@ -17,18 +20,19 @@ export default function Contact() {
 
   return (
     <section className="px-6 py-16 md:px-10 md:py-20">
+      {/* Top of page — visible on load, no Reveal */}
       <SectionHeading
-        eyebrow="CONTACT"
-        title="Get in touch"
-        description="Questions, partnership requests, or a family that needs support — reach out below."
+        eyebrow={t('pages.contact.eyebrow')}
+        title={t('pages.contact.title')}
+        description={t('pages.contact.description')}
         className="mb-12"
       />
 
-      <div className="mx-auto grid max-w-4xl gap-12 md:grid-cols-2">
+      <Reveal className="mx-auto grid max-w-4xl gap-12 md:grid-cols-2">
         <form onSubmit={handleSubmit} className="space-y-5">
           <div>
             <label className="mb-1.5 block text-xs font-semibold text-text/70">
-              Name
+              {t('pages.contact.nameLabel')}
             </label>
             <input
               type="text"
@@ -41,7 +45,7 @@ export default function Contact() {
           </div>
           <div>
             <label className="mb-1.5 block text-xs font-semibold text-text/70">
-              Email
+              {t('pages.contact.emailLabel')}
             </label>
             <input
               type="email"
@@ -54,7 +58,7 @@ export default function Contact() {
           </div>
           <div>
             <label className="mb-1.5 block text-xs font-semibold text-text/70">
-              Message
+              {t('pages.contact.messageLabel')}
             </label>
             <textarea
               name="message"
@@ -66,18 +70,21 @@ export default function Contact() {
             />
           </div>
           <Button type="submit" variant="primary" className="w-full text-center">
-            Send Message
+            {t('common.sendMessage')}
           </Button>
         </form>
 
         <div className="rounded-3xl bg-ink-soft/5 p-8">
-          <h4 className="mb-4 text-sm font-bold text-text">Direct Contact</h4>
+          <h4 className="mb-4 text-sm font-bold text-text">
+            {t('pages.contact.directContactTitle')}
+          </h4>
           <ul className="space-y-3 text-[14px] text-text/70">
+            {/* Email intentionally not translated — it's an identifier, not a sentence */}
             <li>hello@mcccf.org</li>
-            <li>Bende LGA, Abia State</li>
+            <li>{t('footer.location')}</li>
           </ul>
         </div>
-      </div>
+      </Reveal>
     </section>
   )
 }

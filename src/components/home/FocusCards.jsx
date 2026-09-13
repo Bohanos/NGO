@@ -1,17 +1,21 @@
+import { useTranslation } from 'react-i18next'
 import SectionHeading from '../ui/SectionHeading'
+import Reveal from '../ui/Reveal'
 import { services } from '../../data/services'
 
 export default function FocusCards() {
+  const { t } = useTranslation()
+
   return (
     <section className="px-6 py-20 md:px-10 md:py-24">
       <SectionHeading
-        eyebrow="WHAT WE DO"
-        title="Providing essential care, restoring dignity"
+        eyebrow={t('services.eyebrow')}
+        title={t('services.title')}
         align="left"
         className="mb-12"
       />
 
-      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
+      <Reveal className="mx-auto grid max-w-6xl grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
         {services.map((service) => (
           <div
             key={service.id}
@@ -21,21 +25,20 @@ export default function FocusCards() {
               {service.icon}
             </div>
             <h3 className="mb-2.5 text-[17px] font-bold text-text">
-              {service.title}
+              {t(`services.${service.id}.title`)}
             </h3>
             <p className="mb-4 text-[13.5px] leading-relaxed text-text/65">
-              {service.description}
+              {t(`services.${service.id}.description`)}
             </p>
-            
             <a
               href={service.href}
               className="text-[13px] font-bold text-primary transition-opacity hover:opacity-70"
             >
-              Read More → 
+              {t('common.readMore')} →
             </a>
           </div>
         ))}
-      </div>
+      </Reveal>
     </section>
   )
 }

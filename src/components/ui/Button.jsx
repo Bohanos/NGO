@@ -5,10 +5,13 @@ const variants = {
     'bg-gradient-to-r from-primary to-primary-dark text-white shadow-lg shadow-primary/30 hover:-translate-y-0.5',
   ghost:
     'border-2 border-primary text-primary hover:bg-primary/10',
+  // Fixed colors on purpose — this variant sits on top of colored/gradient
+  // banners (CtaBanner, About, WhatWeDo), so it must stay readable
+  // regardless of light/dark mode, not track the cream/ink theme swap.
   light:
-    'bg-cream text-ink shadow-lg hover:-translate-y-0.5',
+    'bg-white text-[#101B33] shadow-lg hover:-translate-y-0.5',
   gradient:
-    'bg-gradient-to-r from-amber to-coral text-ink shadow-lg hover:-translate-y-0.5',
+    'bg-gradient-to-r from-amber to-coral text-[#101B33] shadow-lg hover:-translate-y-0.5',
 }
 
 export default function Button({

@@ -1,87 +1,96 @@
+import { useTranslation } from 'react-i18next'
 import SectionHeading from '../components/ui/SectionHeading'
 import Button from '../components/ui/Button'
+import Reveal from '../components/ui/Reveal'
 
 const options = [
   {
-    title: 'Volunteer',
-    description: 'Join outreach days — screening support, logistics, or community mobilization.',
-    cta: 'Sign Up to Volunteer',
+    id: undefined,
+    titleKey: 'pages.getInvolved.volunteerTitle',
+    descriptionKey: 'pages.getInvolved.volunteerDescription',
+    ctaKey: 'pages.getInvolved.volunteerCta',
     href: '/contact',
   },
   {
-    title: 'Partner With Us',
     id: 'partners',
-    description: 'Medical bodies, local government, and organisations working alongside us.',
-    cta: 'Discuss a Partnership',
+    titleKey: 'pages.getInvolved.partnerTitle',
+    descriptionKey: 'pages.getInvolved.partnerDescription',
+    ctaKey: 'pages.getInvolved.partnerCta',
     href: '/contact',
   },
 ]
 
 // Placeholder partner slots — replace `logo: null` with a Cloudinary URL
-// once each partner's actual logo is supplied.
+// once each partner's actual logo/name is supplied. `number` feeds the
+// common.partnerPlaceholder interpolation ("Partner {{number}}").
 const partners = [
-  { name: 'Partner One', logo: null },
-  { name: 'Partner Two', logo: null },
-  { name: 'Partner Three', logo: null },
-  { name: 'Partner Four', logo: null },
-  { name: 'Partner Five', logo: null },
+  { number: 1, logo: null },
+  { number: 2, logo: null },
+  { number: 3, logo: null },
+  { number: 4, logo: null },
+  { number: 5, logo: null },
 ]
 
 export default function GetInvolved() {
+  const { t } = useTranslation()
+
   return (
     <>
+      {/* Top of page — visible on load, no Reveal */}
       <section className="px-6 py-16 text-center md:px-10 md:py-20">
         <SectionHeading
-          eyebrow="GET INVOLVED"
-          title="There's a place for you in this work"
+          eyebrow={t('pages.getInvolved.eyebrow')}
+          title={t('pages.getInvolved.title')}
         />
       </section>
 
       <section className="px-6 pb-20 md:px-10">
-        <div className="mx-auto grid max-w-4xl grid-cols-1 gap-6 sm:grid-cols-2">
+        <Reveal className="mx-auto grid max-w-4xl grid-cols-1 gap-6 sm:grid-cols-2">
           {options.map((opt) => (
             <div
-              key={opt.title}
+              key={opt.titleKey}
               id={opt.id}
               className="rounded-3xl bg-ink-soft/5 p-8"
             >
-              <h3 className="mb-3 text-xl font-bold text-text">{opt.title}</h3>
+              <h3 className="mb-3 text-xl font-bold text-text">
+                {t(opt.titleKey)}
+              </h3>
               <p className="mb-6 text-[14px] leading-relaxed text-text/65">
-                {opt.description}
+                {t(opt.descriptionKey)}
               </p>
               <Button to={opt.href} variant="primary">
-                {opt.cta}
+                {t(opt.ctaKey)}
               </Button>
             </div>
           ))}
-        </div>
+        </Reveal>
       </section>
 
       <section className="bg-ink-soft/5 px-6 py-16 text-center md:px-10">
         <span className="mb-8 block text-sm font-bold tracking-wide text-primary">
-          OUR PARTNERS
+          {t('pages.getInvolved.partnersEyebrow')}
         </span>
-        <div className="mx-auto grid max-w-4xl grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-5">
+        <Reveal className="mx-auto grid max-w-4xl grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-5">
           {partners.map((partner) => (
             <div
-              key={partner.name}
+              key={partner.number}
               className="flex h-20 items-center justify-center rounded-xl border-2 border-dashed border-primary/30 px-3"
             >
               {partner.logo ? (
                 // IMAGE: partner logo, transparent PNG, min 300px wide
                 <img
                   src={partner.logo}
-                  alt={partner.name}
+                  alt={t('common.partnerPlaceholder', { number: partner.number })}
                   className="max-h-12 max-w-full object-contain"
                 />
               ) : (
                 <span className="text-[11px] text-primary/50">
-                  {partner.name}
+                  {t('common.partnerPlaceholder', { number: partner.number })}
                 </span>
               )}
             </div>
           ))}
-        </div>
+        </Reveal>
       </section>
     </>
   )

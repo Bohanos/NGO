@@ -1,4 +1,6 @@
+import { useTranslation } from 'react-i18next'
 import SectionHeading from '../ui/SectionHeading'
+import Reveal from '../ui/Reveal'
 import { team } from '../../data/team'
 
 const avatarGradients = [
@@ -14,24 +16,26 @@ function getInitials(name) {
 }
 
 export default function TeamGrid() {
+  const { t } = useTranslation()
+
   return (
     <section className="px-6 py-20 md:px-10 md:py-24">
       <SectionHeading
-        eyebrow="BEHIND THE FOUNDATION"
-        title="Meet the people driving this work"
-        description="Co-conveners, health authorities, and partners named on our own outreach materials."
+        eyebrow={t('team.eyebrow')}
+        title={t('team.title')}
+        description={t('team.description')}
         className="mb-14"
       />
 
-      <div className="mx-auto grid max-w-6xl grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-3 md:grid-cols-4">
+      <Reveal className="mx-auto grid max-w-6xl grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-3 md:grid-cols-4">
         {team.map((member, i) => (
-          <div key={member.name} className="text-center">
+          <div key={member.slug} className="text-center">
             <div className="mx-auto mb-3.5 h-[88px] w-[88px] overflow-hidden rounded-full shadow-lg shadow-ink/15">
               {member.photoUrl ? (
                 // IMAGE: team headshot, square crop, min 400x400px
                 <img
                   src={member.photoUrl}
-                  alt={member.name}
+                  alt={t('common.portraitOf', { name: member.name })}
                   className="h-full w-full object-cover"
                 />
               ) : (
@@ -48,11 +52,11 @@ export default function TeamGrid() {
               {member.name}
             </h4>
             <span className="text-[11.5px] font-semibold text-primary">
-              {member.role}
+              {t(`team.members.${member.slug}.role`)}
             </span>
           </div>
         ))}
-      </div>
+      </Reveal>
     </section>
   )
 }

@@ -1,0 +1,208 @@
+{
+  "common": {
+    "donate": "Faire un don",
+    "readMore": "Lire la suite",
+    "learnOurStory": "Découvrir notre histoire",
+    "seeWhatWeDo": "Voir ce que nous faisons",
+    "supportAFamily": "Soutenir une famille",
+    "seeOurWork": "Voir notre travail",
+    "sendMessage": "Envoyer le message",
+    "copy": "Copier",
+    "copied": "Copié !",
+    "photoComingSoon": "Photo à venir",
+    "imagePending": "Image en attente",
+    "openMenu": "Ouvrir le menu",
+    "portraitOf": "Portrait de {{name}}",
+    "partnerPlaceholder": "Partenaire {{number}}"
+  },
+  "nav": {
+    "whoWeAre": "Qui sommes-nous",
+    "whatWeDo": "Ce que nous faisons",
+    "ourTeam": "Notre équipe",
+    "stories": "Histoires",
+    "getInvolved": "S'impliquer",
+    "dropdown": {
+      "screening": "Sensibilisation et dépistage du cancer",
+      "surgery": "Soutien médical et chirurgical",
+      "family": "Soutien à l'enfance et à la famille",
+      "outreach": "Actions communautaires"
+    }
+  },
+  "footer": {
+    "tagline": "Une fondation de terrain en partenariat avec le Bende LGA pour apporter dépistage du cancer, soutien médical et aide aux familles qui en ont le plus besoin.",
+    "becomeADonor": "Devenir donateur",
+    "explore": "EXPLORER",
+    "getInvolved": "S'IMPLIQUER",
+    "connect": "CONTACT",
+    "contact": "Contact",
+    "volunteer": "Bénévolat",
+    "partnerWithUs": "Devenir partenaire",
+    "copyright": "The Macedonian Call Cancer Foundation. Tous droits réservés.",
+    "privacy": "Confidentialité",
+    "accessibility": "Accessibilité",
+    "location": "Bende LGA, État d'Abia"
+  },
+  "hero": {
+    "eyebrow": "ACTION SANITAIRE COMMUNAUTAIRE · ÉTAT D'ABIA",
+    "titleLine1": "Redonner espoir,",
+    "titleHighlight": "reconstruire des vies",
+    "titleLine2": "une famille à la fois.",
+    "description": "Nous allons vers les familles qui n'ont pas les moyens de se faire dépister, opérer ou soigner — en apportant soutien médical et aide directement au sein de la communauté.",
+    "mainPhotoAlt": "Marche de sensibilisation communautaire",
+    "insetPhotoAlt": "Bénévoles lors d'une action de proximité"
+  },
+  "approach": {
+    "eyebrow": "NOTRE DÉMARCHE",
+    "title": "Comment l'aide arrive jusqu'à chaque porte",
+    "steps": {
+      "reach": { "title": "Aller vers eux", "description": "Nous allons de maison en maison, à travers quartiers et villages." },
+      "screenEducate": { "title": "Dépister et sensibiliser", "description": "Dépistage gratuit sur place et sensibilisation à la santé." },
+      "supportTreat": { "title": "Soutenir et soigner", "description": "Prise en charge des frais de chirurgie, de médicaments et de soins." },
+      "followUp": { "title": "Assurer le suivi", "description": "Un accompagnement continu jusqu'à ce que la famille soit stable." }
+    }
+  },
+  "services": {
+    "eyebrow": "CE QUE NOUS FAISONS",
+    "title": "Des soins essentiels, une dignité retrouvée",
+    "screening": { "title": "Dépistage et sensibilisation au cancer", "description": "Dépistage communautaire gratuit, symposiums et sensibilisation à la détection précoce." },
+    "surgery": { "title": "Chirurgie et soutien médical", "description": "Prise en charge des frais de chirurgie et de traitement pour les familles qui n'ont pas les moyens de se soigner." },
+    "family": { "title": "Aide à l'enfance et à la famille", "description": "Soutien aux enfants et aux foyers confrontés à des difficultés, à la maladie ou à un deuil." }
+  },
+  "story": {
+    "eyebrow": "NOTRE HISTOIRE",
+    "title": "Guérir au-delà des murs de l'hôpital",
+    "description": "Tout a commencé par une simple marche de sensibilisation au cancer à Bende LGA. Depuis, c'est devenu un mouvement de terrain — en partenariat avec les autorités locales, des associations médicales et des responsables communautaires, pour que le soin atteigne réellement les gens, et non l'inverse.",
+    "imageAlt": "Symposium de santé communautaire"
+  },
+  "team": {
+    "eyebrow": "DERRIÈRE LA FONDATION",
+    "title": "Rencontrez les personnes qui portent ce travail",
+    "description": "Co-organisateurs, autorités sanitaires et partenaires mentionnés sur nos propres supports de sensibilisation.",
+    "members": {
+      "uwabunkonyeBassey": { "role": "Maire, Bende L.G.A" },
+      "euniceOjike": { "role": "Présidente, Dr Uzumma Cares" },
+      "mercyIgwe": { "role": "Médecine générale familiale, co-organisatrice" },
+      "josephineEmenekeOkorie": { "role": "Scientifique de l'environnement" },
+      "ugommaOkorieWright": { "role": "Fondatrice/PDG, Munez Healthcare" },
+      "iheadigboOluchi": { "role": "Secrétaire aux autorités sanitaires" },
+      "annetteElekwachi": { "role": "Chercheuse en diagnostic oncologique" }
+    }
+  },
+  "leadership": {
+    "title": "Direction de la Fondation",
+    "people": {
+      "uwabunkonyeBassey": {
+        "role": "Maire, Bende L.G.A",
+        "bio": "Dirige le partenariat avec les autorités locales qui amène les équipes de terrain directement dans chaque quartier."
+      },
+      "annetteElekwachi": {
+        "role": "Cheffe de file au Royaume-Uni, recherche en oncologie",
+        "bio": "Fait le lien entre la recherche en oncologie menée au Royaume-Uni et le dépistage de terrain dans l'État d'Abia."
+      },
+      "euniceOjike": {
+        "role": "Présidente, Dr Uzumma Cares",
+        "bio": "Supervise les partenariats cliniques et co-organise la marche et l'action annuelles."
+      }
+    }
+  },
+  "cta": {
+    "title": "Aidez-nous à atteindre la prochaine famille",
+    "description": "Chaque don finance un dépistage, une opération ou un foyer qui avait besoin d'aide aujourd'hui.",
+    "button": "Faire un don maintenant"
+  },
+  "pages": {
+    "about": {
+      "eyebrow": "QUI SOMMES-NOUS",
+      "title": "Une fondation de terrain fondée sur l'engagement",
+      "intro": "The Macedonian Call Cancer Foundation a débuté avec une simple marche de sensibilisation au cancer à Bende LGA. Depuis, elle est devenue un partenariat continu avec les autorités locales, des associations médicales et des responsables communautaires — pour que le dépistage, le traitement et l'aide atteignent réellement ceux qui en ont besoin.",
+      "introImageAlt": "Équipe de la fondation et bénévoles",
+      "stats": {
+        "outreaches": "Actions communautaires",
+        "households": "Foyers aidés",
+        "partners": "Organisations partenaires"
+      },
+      "missionTitle": "Notre mission",
+      "mission": "Apporter directement dépistage du cancer, soutien médical et aide aux familles qui ne peuvent autrement pas se soigner — en commençant par Bende LGA et en grandissant à chaque action.",
+      "visionTitle": "Notre vision",
+      "vision": "Une communauté où personne ne retarde un traitement, ne renonce à un dépistage ou n'affronte seul la maladie faute de moyens.",
+      "valuesEyebrow": "CE QUI NOUS GUIDE",
+      "valuesTitle": "Nos valeurs",
+      "values": {
+        "community": { "title": "La communauté d'abord", "description": "Nous allons vers les gens, plutôt que d'attendre qu'ils viennent à nous." },
+        "dignity": { "title": "La dignité dans les soins", "description": "Chaque famille que nous soutenons est traitée avec respect, non comme une charité par pitié." },
+        "followThrough": { "title": "Un engagement dans la durée", "description": "Nous ne nous arrêtons pas à une seule visite — le soutien continue jusqu'à ce que la famille soit stable." }
+      },
+      "bannerTitle": "Vous voulez en savoir plus sur notre façon de travailler ?"
+    },
+    "whatWeDo": {
+      "eyebrow": "CE QUE NOUS FAISONS",
+      "title": "Des soins qui vont à la rencontre des gens",
+      "description": "Du dépistage à la chirurgie en passant par un accompagnement familial durable — voici comment nous travaillons.",
+      "processEyebrow": "NOTRE PROCESSUS",
+      "processTitle": "Comment se déroule chaque action de terrain",
+      "bannerTitle": "Vous connaissez une famille qui a besoin d'aide ?",
+      "reachOut": "Contactez-nous"
+    },
+    "team": {
+      "eyebrow": "NOTRE ÉQUIPE",
+      "title": "Les personnes derrière chaque action de terrain",
+      "description": "Co-organisateurs, autorités sanitaires et partenaires qui rendent ce travail possible."
+    },
+    "stories": {
+      "eyebrow": "SUR LE TERRAIN",
+      "title": "Histoires de nos actions de proximité",
+      "items": {
+        "walk": {
+          "tag": "ACTION DE TERRAIN",
+          "title": "La marche de sensibilisation au cancer traverse Bende LGA",
+          "excerpt": "Des centaines de personnes ont rejoint la marche annuelle pour promouvoir le dépistage précoce dans chaque quartier."
+        },
+        "screening": {
+          "tag": "DÉPISTAGE",
+          "title": "Des bénévoles coordonnent un dépistage de porte à porte",
+          "excerpt": "Un aperçu de la façon dont les équipes de dépistage planifient et mènent chaque visite."
+        },
+        "symposium": {
+          "tag": "SENSIBILISATION",
+          "title": "Symposium communautaire sur la détection précoce",
+          "excerpt": "Des professionnels de santé et des survivants ont partagé ce que la détection précoce a réellement changé."
+        },
+        "partnership": {
+          "tag": "PARTENARIAT",
+          "title": "La Medical Women's Association rejoint l'action de terrain",
+          "excerpt": "Un nouveau partenariat clinique a apporté plus de mains à la marche de cette année."
+        }
+      }
+    },
+    "getInvolved": {
+      "eyebrow": "S'IMPLIQUER",
+      "title": "Il y a une place pour vous dans ce travail",
+      "volunteerTitle": "Devenir bénévole",
+      "volunteerDescription": "Rejoignez nos journées d'action — soutien au dépistage, logistique ou mobilisation communautaire.",
+      "volunteerCta": "S'inscrire comme bénévole",
+      "partnerTitle": "Devenir partenaire",
+      "partnerDescription": "Organismes médicaux, autorités locales et organisations qui travaillent à nos côtés.",
+      "partnerCta": "Discuter d'un partenariat",
+      "partnersEyebrow": "NOS PARTENAIRES"
+    },
+    "donate": {
+      "eyebrow": "FAIRE UN DON",
+      "title": "Chaque don finance des soins réels",
+      "description": "Le paiement en ligne (Paystack/Flutterwave) arrive bientôt. Pour l'instant, les dons sont reçus par virement bancaire direct.",
+      "bankDetailsTitle": "COORDONNÉES BANCAIRES",
+      "bankName": "Nom de la banque",
+      "accountName": "Nom du compte",
+      "accountNumber": "Numéro de compte",
+      "note": "Merci de conserver votre reçu de virement — un membre de notre équipe vous contactera pour confirmer et vous envoyer un mot de remerciement."
+    },
+    "contact": {
+      "eyebrow": "CONTACT",
+      "title": "Contactez-nous",
+      "description": "Questions, demandes de partenariat, ou une famille qui a besoin d'aide — écrivez-nous ci-dessous.",
+      "nameLabel": "Nom",
+      "emailLabel": "E-mail",
+      "messageLabel": "Message",
+      "directContactTitle": "Contact direct"
+    }
+  }
+}
