@@ -58,7 +58,7 @@ export default function Hero() {
               className="h-full w-full object-cover"
             />
           </div>
-
+          
           <div className="absolute left-[170px] top-[220px] z-20 h-[110px] w-[110px] overflow-hidden rounded-full border-[6px] border-cream shadow-xl shadow-ink/35 md:left-[220px] md:top-[280px] md:h-[150px] md:w-[150px]">
             {/* IMAGE: secondary inset photo — close-up of volunteers/beneficiaries, square crop, min 400x400px */}
             <img
