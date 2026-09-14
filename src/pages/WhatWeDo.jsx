@@ -41,13 +41,20 @@ export default function WhatWeDo() {
                 {t(`services.${service.id}.description`)}
               </p>
             </div>
+
             <div className="h-[240px] overflow-hidden rounded-3xl shadow-lg shadow-ink/10 md:[direction:ltr]">
-              {/* IMAGE: photo representing this focus area, landscape, min 1000x750px */}
-              <img
-                src="" // TODO: Cloudinary URL — photo for this focus area
-                alt={t(`services.${service.id}.title`)}
-                className="h-full w-full object-cover"
-              />
+              {service.image ? (
+                // IMAGE: photo representing this focus area, landscape, min 1000x750px
+                <img
+                  src={service.image}
+                  alt={t(`services.${service.id}.title`)}
+                  className="h-full w-full object-cover"
+                />
+              ) : (
+                <div className="flex h-full w-full items-center justify-center bg-primary/5 text-[12px] font-medium text-primary/40">
+                  {t('common.imagePending')}
+                </div>
+              )}
             </div>
           </Reveal>
         </section>

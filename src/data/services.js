@@ -1,13 +1,13 @@
-// Focus area cards — `id` maps to translation keys under `services.<id>`
+// WhatWeDo.jsx shows a labeled placeholder when null, so nothing looks broken
 export const services = [
-  { id: 'screening', icon: '🎗️', href: '/what-we-do#screening' },
-  { id: 'surgery', icon: '⚕️', href: '/what-we-do#surgery' },
-  { id: 'remoteVillages', icon: '🏞️', href: '/what-we-do#remoteVillages' },
-  { id: 'healthWorkerTraining', icon: '🎓', href: '/what-we-do#healthWorkerTraining' },
-  { id: 'qualityOfLife', icon: '🛡️', href: '/what-we-do#qualityOfLife' },
+  { id: 'screening', icon: '🎗️', href: '/what-we-do#screening', image: null },
+  { id: 'surgery', icon: '⚕️', href: '/what-we-do#surgery', image: null },
+  { id: 'remoteVillages', icon: '🏞️', href: '/what-we-do#remoteVillages', image: null },
+  { id: 'healthWorkerTraining', icon: '🎓', href: '/what-we-do#healthWorkerTraining', image: null },
+  { id: 'qualityOfLife', icon: '🛡️', href: '/what-we-do#qualityOfLife', image: null },
 ]
 
-// "Our Approach" steps — unchanged
+// "Our Approach"
 export const approachSteps = [
   { num: '01', key: 'reach' },
   { num: '02', key: 'screenEducate' },

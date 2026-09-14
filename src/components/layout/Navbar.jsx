@@ -15,11 +15,9 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between">
         {/* Brand — proper noun, intentionally not run through t() */}
         <Link to="/" className="flex items-center gap-3">
-          <img 
-            src="#"
-            alt="The Macedonia Call Cancer Foundation Logo" 
-            className="h-20 w-20 shrink-0 object-contain" 
-          />
+          <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border-2 border-dashed border-primary text-center text-[8px] font-bold leading-tight text-primary">
+            LOGO
+          </div>
           <div className="leading-tight">
             <span className="block text-[15px] font-bold text-text">Macedonian Call</span>
             <span className="block text-[10px] font-medium tracking-wide text-primary">
@@ -125,10 +123,12 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile menu panel */}
+      {/* Mobile menu panel — overflow-hidden only while CLOSED (needed for the
+          collapse animation); overflow-visible once OPEN, so LanguageSwitcher's
+          absolutely-positioned dropdown isn't clipped by this container. */}
       <div
-        className={`overflow-hidden transition-all duration-300 md:hidden ${
-          mobileOpen ? 'max-h-[80vh] opacity-100' : 'max-h-0 opacity-0'
+        className={`transition-all duration-300 md:hidden ${
+          mobileOpen ? 'max-h-[80vh] overflow-visible opacity-100' : 'max-h-0 overflow-hidden opacity-0'
         }`}
       >
         <ul className="mt-4 flex flex-col gap-1 border-t border-primary/10 pt-4">
