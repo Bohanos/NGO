@@ -15,9 +15,11 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between">
         {/* Brand — proper noun, intentionally not run through t() */}
         <Link to="/" className="flex items-center gap-3">
-          <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border-2 border-dashed border-primary text-center text-[8px] font-bold leading-tight text-primary">
-            LOGO
-          </div>
+          <img 
+            src="#"
+            alt="The Macedonia Call Cancer Foundation Logo" 
+            className="h-20 w-20 shrink-0 object-contain" 
+          />
           <div className="leading-tight">
             <span className="block text-[15px] font-bold text-text">Macedonian Call</span>
             <span className="block text-[10px] font-medium tracking-wide text-primary">

@@ -4,7 +4,7 @@
     "readMore": "Leggi di più",
     "learnOurStory": "Scopri la nostra storia",
     "seeWhatWeDo": "Guarda cosa facciamo",
-    "supportAFamily": "Sostieni una famiglia",
+    "supportAFamily": "Sostieni un paziente",
     "seeOurWork": "Guarda il nostro lavoro",
     "sendMessage": "Invia messaggio",
     "copy": "Copia",
@@ -24,12 +24,14 @@
     "dropdown": {
       "screening": "Sensibilizzazione e screening oncologico",
       "surgery": "Supporto medico e chirurgico",
-      "family": "Sostegno a bambini e famiglie",
+      "remoteVillages": "Supporto ai villaggi remoti",
+      "healthWorkerTraining": "Formazione degli operatori sanitari",
+      "qualityOfLife": "Salute comunitaria e qualità della vita",
       "outreach": "Attività sul territorio"
     }
   },
   "footer": {
-    "tagline": "Una fondazione di base in collaborazione con il Bende LGA per portare screening oncologico, supporto medico e aiuto alle famiglie che ne hanno più bisogno.",
+    "tagline": "Una fondazione di base in collaborazione con il Bende LGA per portare screening oncologico, supporto medico e aiuto ai pazienti e alle comunità che ne hanno più bisogno.",
     "becomeADonor": "Diventa donatore",
     "explore": "ESPLORA",
     "getInvolved": "PARTECIPA",
@@ -43,13 +45,32 @@
     "location": "Bende LGA, Stato di Abia"
   },
   "hero": {
-    "eyebrow": "SALUTE E AIUTO SUL TERRITORIO · STATO DI ABIA",
+    "eyebrow": "CURA ONCOLOGICA DI COMUNITÀ · STATO DI ABIA",
     "titleLine1": "Ridare speranza,",
     "titleHighlight": "ricostruire vite",
-    "titleLine2": "una famiglia alla volta.",
-    "description": "Raggiungiamo le famiglie che non possono permettersi screening, interventi chirurgici o cure di base, portando supporto medico e aiuto direttamente nella comunità.",
+    "titleLine2": "un paziente alla volta.",
+    "description": "Raggiungiamo i pazienti oncologici che non possono permettersi screening, interventi chirurgici o cure, portando assistenza salvavita e supporto direttamente nella comunità.",
     "mainPhotoAlt": "Marcia di sensibilizzazione comunitaria",
     "insetPhotoAlt": "Volontari durante un'iniziativa sul territorio"
+  },
+  "signs": {
+    "eyebrow": "IL NOSTRO INVITO ALL'AZIONE",
+    "title": "Conosci i segnali, agisci, salva vite",
+    "description": "La diagnosi precoce cambia tutto — ecco cosa significa in pratica.",
+    "items": {
+      "knowSigns": {
+        "title": "Conosci i segnali",
+        "description": "Noduli persistenti, sanguinamenti insoliti, perdita di peso inspiegabile o cambiamenti che non passano: riconoscere i segnali precoci è il primo passo per sconfiggere il cancro."
+      },
+      "takeAction": {
+        "title": "Agisci",
+        "description": "Rendiamo semplice agire di fronte a questi segnali — screening gratuito, indirizzamento e supporto per ottenere una diagnosi senza ritardi né timori economici."
+      },
+      "saveLives": {
+        "title": "Salva vite",
+        "description": "La diagnosi precoce migliora enormemente la sopravvivenza. Ogni persona sottoposta a screening in tempo è una vita che questa campagna ha contribuito a salvare."
+      }
+    }
   },
   "approach": {
     "eyebrow": "IL NOSTRO APPROCCIO",
@@ -58,21 +79,38 @@
       "reach": { "title": "Raggiungere", "description": "Andiamo di casa in casa in quartieri e villaggi." },
       "screenEducate": { "title": "Screening ed educazione", "description": "Screening gratuito sul posto ed educazione sanitaria." },
       "supportTreat": { "title": "Sostenere e curare", "description": "Copriamo i costi di interventi chirurgici, farmaci e cure." },
-      "followUp": { "title": "Seguire nel tempo", "description": "Sostegno continuo finché la famiglia non è stabile." }
+      "followUp": { "title": "Seguire nel tempo", "description": "Sostegno continuo finché il paziente non è stabile." }
     }
   },
   "services": {
     "eyebrow": "COSA FACCIAMO",
     "title": "Cure essenziali, dignità ritrovata",
     "screening": { "title": "Screening e sensibilizzazione oncologica", "description": "Screening comunitario gratuito, simposi ed educazione alla diagnosi precoce." },
-    "surgery": { "title": "Chirurgia e supporto medico", "description": "Copriamo i costi di intervento e cura per le famiglie che non possono permettersi l'assistenza." },
-    "family": { "title": "Sostegno a bambini e famiglie", "description": "Supporto a bambini e famiglie che affrontano difficoltà, malattia o lutto." }
+    "surgery": { "title": "Chirurgia e supporto medico", "description": "Copriamo i costi di intervento e cura per i pazienti che non possono permettersi l'assistenza." },
+    "remoteVillages": {
+      "title": "Supporto ai pazienti oncologici nei villaggi remoti",
+      "description": "Raggiungiamo i pazienti oncologici nei villaggi remoti e svantaggiati con screening, supporto al trattamento e follow-up altrimenti inaccessibili."
+    },
+    "healthWorkerTraining": {
+      "title": "Formazione collaborativa degli operatori sanitari",
+      "description": "Collaboriamo con gli operatori sanitari locali nelle comunità remote e svantaggiate per costruire competenze pratiche e durature nella cura oncologica."
+    },
+    "qualityOfLife": {
+      "title": "Migliorare la qualità della vita e la sicurezza sanitaria",
+      "description": "Lavoriamo per innalzare gli standard quotidiani di salute e sicurezza nelle comunità svantaggiate, oltre i semplici interventi puntuali."
+    }
   },
   "story": {
     "eyebrow": "LA NOSTRA STORIA",
     "title": "Curare oltre le mura dell'ospedale",
     "description": "Tutto è iniziato con una semplice marcia di sensibilizzazione sul cancro a Bende LGA. Da allora è diventato un movimento di base, in collaborazione con le autorità locali, associazioni mediche e leader di comunità, per garantire che le cure arrivino alle persone, e non il contrario.",
     "imageAlt": "Simposio di salute comunitaria"
+  },
+  "grassroots": {
+    "eyebrow": "LA NOSTRA PORTATA",
+    "title": "Raggiungere le comunità di base in Africa Occidentale",
+    "description": "Dai presidi sanitari nei villaggi alle sale comunitarie remote, portiamo il messaggio e gli strumenti della diagnosi precoce del cancro oltre le città, fino agli angoli svantaggiati dell'Africa Occidentale dove è più necessario.",
+    "imageAlt": "Iniziativa comunitaria in un villaggio remoto"
   },
   "team": {
     "eyebrow": "DIETRO LA FONDAZIONE",
@@ -106,41 +144,41 @@
     }
   },
   "cta": {
-    "title": "Aiutaci a raggiungere la prossima famiglia",
-    "description": "Ogni donazione finanzia uno screening, un intervento chirurgico o una famiglia che aveva bisogno di aiuto oggi.",
+    "title": "Aiutaci a raggiungere il prossimo paziente",
+    "description": "Ogni donazione finanzia uno screening, un intervento chirurgico o una cura per qualcuno che ne ha bisogno oggi.",
     "button": "Dona ora"
   },
   "pages": {
     "about": {
       "eyebrow": "CHI SIAMO",
       "title": "Una fondazione di base costruita sull'esserci",
-      "intro": "The Macedonian Call Cancer Foundation è nata da una semplice marcia di sensibilizzazione sul cancro a Bende LGA. Da allora è diventata una collaborazione continua con il governo locale, associazioni mediche e leader di comunità, impegnata a garantire che screening, cure e aiuto raggiungano davvero chi ne ha bisogno.",
+      "intro": "The Macedonian Call Cancer Foundation è nata da una semplice marcia di sensibilizzazione sul cancro a Bende LGA. Da allora è diventata una collaborazione continua con il governo locale, associazioni mediche e leader di comunità, impegnata a garantire che screening, cure e supporto raggiungano davvero chi ne ha bisogno.",
       "introImageAlt": "Team della fondazione e volontari",
       "stats": {
         "outreaches": "Iniziative sul territorio",
-        "households": "Famiglie raggiunte",
+        "households": "Pazienti raggiunti",
         "partners": "Organizzazioni partner"
       },
-      "missionTitle": "La nostra missione",
-      "mission": "Portare screening oncologico, supporto medico e aiuto direttamente alle famiglie che non potrebbero altrimenti permettersi le cure, iniziando da Bende LGA e crescendo con ogni iniziativa.",
-      "visionTitle": "La nostra visione",
-      "vision": "Una comunità in cui nessuno ritarda una cura, salta uno screening o affronta la malattia da solo per motivi economici.",
+      "missionTitle": "Dichiarazione di missione",
+      "mission": "Portare la notizia e il messaggio del cancro alle comunità di base e svantaggiate dell'Africa.",
+      "visionTitle": "Dichiarazione di visione",
+      "vision": "Raggiungere un mondo libero dal cancro, indipendentemente dallo status sociale o dal luogo.",
       "valuesEyebrow": "CIÒ CHE CI GUIDA",
       "valuesTitle": "I nostri valori",
       "values": {
         "community": { "title": "Prima la comunità", "description": "Andiamo dove sono le persone, invece di aspettare che ci trovino." },
-        "dignity": { "title": "Dignità nella cura", "description": "Ogni famiglia che sosteniamo è trattata con rispetto, non come carità per compassione." },
-        "followThrough": { "title": "Impegno costante", "description": "Non ci fermiamo a una singola visita: il sostegno continua finché la famiglia non è stabile." }
+        "dignity": { "title": "Dignità nella cura", "description": "Ogni paziente che sosteniamo è trattato con rispetto, non come carità per compassione." },
+        "followThrough": { "title": "Impegno costante", "description": "Non ci fermiamo a una singola visita: il sostegno continua finché il paziente non è stabile." }
       },
       "bannerTitle": "Vuoi saperne di più su come lavoriamo?"
     },
     "whatWeDo": {
       "eyebrow": "COSA FACCIAMO",
       "title": "Cure che raggiungono le persone dove sono",
-      "description": "Dallo screening alla chirurgia fino al sostegno familiare continuo: ecco come lavoriamo.",
+      "description": "Dallo screening alla chirurgia fino alla cura oncologica di comunità: ecco come lavoriamo.",
       "processEyebrow": "IL NOSTRO PROCESSO",
       "processTitle": "Come si svolge ogni iniziativa sul territorio",
-      "bannerTitle": "Conosci una famiglia che ha bisogno di sostegno?",
+      "bannerTitle": "Conosci qualcuno che ha bisogno di sostegno?",
       "reachOut": "Contattaci"
     },
     "team": {
@@ -198,7 +236,7 @@
     "contact": {
       "eyebrow": "CONTATTI",
       "title": "Mettiti in contatto",
-      "description": "Domande, richieste di partnership o una famiglia che ha bisogno di sostegno: scrivici qui sotto.",
+      "description": "Domande, richieste di partnership o un paziente che ha bisogno di sostegno: scrivici qui sotto.",
       "nameLabel": "Nome",
       "emailLabel": "Email",
       "messageLabel": "Messaggio",

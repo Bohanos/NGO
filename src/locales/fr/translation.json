@@ -4,7 +4,7 @@
     "readMore": "Lire la suite",
     "learnOurStory": "Découvrir notre histoire",
     "seeWhatWeDo": "Voir ce que nous faisons",
-    "supportAFamily": "Soutenir une famille",
+    "supportAFamily": "Soutenir un patient",
     "seeOurWork": "Voir notre travail",
     "sendMessage": "Envoyer le message",
     "copy": "Copier",
@@ -24,12 +24,14 @@
     "dropdown": {
       "screening": "Sensibilisation et dépistage du cancer",
       "surgery": "Soutien médical et chirurgical",
-      "family": "Soutien à l'enfance et à la famille",
+      "remoteVillages": "Soutien aux villages isolés",
+      "healthWorkerTraining": "Formation des agents de santé",
+      "qualityOfLife": "Santé communautaire et qualité de vie",
       "outreach": "Actions communautaires"
     }
   },
   "footer": {
-    "tagline": "Une fondation de terrain en partenariat avec le Bende LGA pour apporter dépistage du cancer, soutien médical et aide aux familles qui en ont le plus besoin.",
+    "tagline": "Une fondation de terrain en partenariat avec le Bende LGA pour apporter dépistage du cancer, soutien médical et aide aux patients et communautés qui en ont le plus besoin.",
     "becomeADonor": "Devenir donateur",
     "explore": "EXPLORER",
     "getInvolved": "S'IMPLIQUER",
@@ -43,13 +45,32 @@
     "location": "Bende LGA, État d'Abia"
   },
   "hero": {
-    "eyebrow": "ACTION SANITAIRE COMMUNAUTAIRE · ÉTAT D'ABIA",
+    "eyebrow": "SOINS COMMUNAUTAIRES CONTRE LE CANCER · ÉTAT D'ABIA",
     "titleLine1": "Redonner espoir,",
     "titleHighlight": "reconstruire des vies",
-    "titleLine2": "une famille à la fois.",
-    "description": "Nous allons vers les familles qui n'ont pas les moyens de se faire dépister, opérer ou soigner — en apportant soutien médical et aide directement au sein de la communauté.",
+    "titleLine2": "un patient à la fois.",
+    "description": "Nous allons vers les patients atteints de cancer qui n'ont pas les moyens de se faire dépister, opérer ou soigner — en apportant des soins vitaux et un soutien directement au sein de la communauté.",
     "mainPhotoAlt": "Marche de sensibilisation communautaire",
     "insetPhotoAlt": "Bénévoles lors d'une action de proximité"
+  },
+  "signs": {
+    "eyebrow": "NOTRE APPEL À L'ACTION",
+    "title": "Connaître les signes, agir, sauver des vies",
+    "description": "La détection précoce change tout — voici ce que cela signifie concrètement.",
+    "items": {
+      "knowSigns": {
+        "title": "Connaître les signes",
+        "description": "Une grosseur persistante, un saignement inhabituel, une perte de poids inexpliquée ou tout changement qui ne disparaît pas — reconnaître les signes précoces est la première étape pour vaincre le cancer."
+      },
+      "takeAction": {
+        "title": "Agir",
+        "description": "Nous facilitons l'action face à ces signes — dépistage gratuit, orientation médicale et accompagnement pour obtenir un diagnostic sans délai ni crainte financière."
+      },
+      "saveLives": {
+        "title": "Sauver des vies",
+        "description": "La détection précoce améliore considérablement les chances de survie. Chaque personne dépistée à temps est une vie que cette campagne a contribué à sauver."
+      }
+    }
   },
   "approach": {
     "eyebrow": "NOTRE DÉMARCHE",
@@ -58,21 +79,38 @@
       "reach": { "title": "Aller vers eux", "description": "Nous allons de maison en maison, à travers quartiers et villages." },
       "screenEducate": { "title": "Dépister et sensibiliser", "description": "Dépistage gratuit sur place et sensibilisation à la santé." },
       "supportTreat": { "title": "Soutenir et soigner", "description": "Prise en charge des frais de chirurgie, de médicaments et de soins." },
-      "followUp": { "title": "Assurer le suivi", "description": "Un accompagnement continu jusqu'à ce que la famille soit stable." }
+      "followUp": { "title": "Assurer le suivi", "description": "Un accompagnement continu jusqu'à ce que le patient soit stable." }
     }
   },
   "services": {
     "eyebrow": "CE QUE NOUS FAISONS",
     "title": "Des soins essentiels, une dignité retrouvée",
     "screening": { "title": "Dépistage et sensibilisation au cancer", "description": "Dépistage communautaire gratuit, symposiums et sensibilisation à la détection précoce." },
-    "surgery": { "title": "Chirurgie et soutien médical", "description": "Prise en charge des frais de chirurgie et de traitement pour les familles qui n'ont pas les moyens de se soigner." },
-    "family": { "title": "Aide à l'enfance et à la famille", "description": "Soutien aux enfants et aux foyers confrontés à des difficultés, à la maladie ou à un deuil." }
+    "surgery": { "title": "Chirurgie et soutien médical", "description": "Prise en charge des frais de chirurgie et de traitement pour les patients qui n'ont pas les moyens de se soigner." },
+    "remoteVillages": {
+      "title": "Soutien aux patients atteints de cancer dans les villages isolés",
+      "description": "Atteindre les patients atteints de cancer dans les villages isolés et mal desservis grâce au dépistage, au soutien au traitement et au suivi auxquels ils n'auraient autrement pas accès."
+    },
+    "healthWorkerTraining": {
+      "title": "Formation collaborative des agents de santé",
+      "description": "Collaborer avec les agents de santé locaux dans les communautés isolées et mal desservies pour développer des compétences durables et pratiques en soins oncologiques."
+    },
+    "qualityOfLife": {
+      "title": "Améliorer la qualité de vie et la sécurité sanitaire",
+      "description": "Œuvrer à relever les normes de santé et de sécurité au quotidien pour les communautés mal desservies, au-delà des interventions ponctuelles."
+    }
   },
   "story": {
     "eyebrow": "NOTRE HISTOIRE",
     "title": "Guérir au-delà des murs de l'hôpital",
     "description": "Tout a commencé par une simple marche de sensibilisation au cancer à Bende LGA. Depuis, c'est devenu un mouvement de terrain — en partenariat avec les autorités locales, des associations médicales et des responsables communautaires, pour que le soin atteigne réellement les gens, et non l'inverse.",
     "imageAlt": "Symposium de santé communautaire"
+  },
+  "grassroots": {
+    "eyebrow": "NOTRE PORTÉE",
+    "title": "Atteindre les communautés de base en Afrique de l'Ouest",
+    "description": "Des postes de santé villageois aux salles communautaires isolées, nous portons le message et les moyens de la détection précoce du cancer au-delà des villes — jusque dans les coins mal desservis d'Afrique de l'Ouest où le besoin est le plus grand.",
+    "imageAlt": "Action communautaire dans un village isolé"
   },
   "team": {
     "eyebrow": "DERRIÈRE LA FONDATION",
@@ -106,41 +144,41 @@
     }
   },
   "cta": {
-    "title": "Aidez-nous à atteindre la prochaine famille",
-    "description": "Chaque don finance un dépistage, une opération ou un foyer qui avait besoin d'aide aujourd'hui.",
+    "title": "Aidez-nous à atteindre le prochain patient",
+    "description": "Chaque don finance un dépistage, une opération ou un traitement pour une personne qui en a besoin aujourd'hui.",
     "button": "Faire un don maintenant"
   },
   "pages": {
     "about": {
       "eyebrow": "QUI SOMMES-NOUS",
       "title": "Une fondation de terrain fondée sur l'engagement",
-      "intro": "The Macedonian Call Cancer Foundation a débuté avec une simple marche de sensibilisation au cancer à Bende LGA. Depuis, elle est devenue un partenariat continu avec les autorités locales, des associations médicales et des responsables communautaires — pour que le dépistage, le traitement et l'aide atteignent réellement ceux qui en ont besoin.",
+      "intro": "The Macedonian Call Cancer Foundation a débuté avec une simple marche de sensibilisation au cancer à Bende LGA. Depuis, elle est devenue un partenariat continu avec les autorités locales, des associations médicales et des responsables communautaires — pour que le dépistage, le traitement et le soutien atteignent réellement ceux qui en ont besoin.",
       "introImageAlt": "Équipe de la fondation et bénévoles",
       "stats": {
         "outreaches": "Actions communautaires",
-        "households": "Foyers aidés",
+        "households": "Patients atteints",
         "partners": "Organisations partenaires"
       },
-      "missionTitle": "Notre mission",
-      "mission": "Apporter directement dépistage du cancer, soutien médical et aide aux familles qui ne peuvent autrement pas se soigner — en commençant par Bende LGA et en grandissant à chaque action.",
-      "visionTitle": "Notre vision",
-      "vision": "Une communauté où personne ne retarde un traitement, ne renonce à un dépistage ou n'affronte seul la maladie faute de moyens.",
+      "missionTitle": "Déclaration de mission",
+      "mission": "Porter la nouvelle et le message du cancer jusqu'aux communautés de base et mal desservies d'Afrique.",
+      "visionTitle": "Déclaration de vision",
+      "vision": "Parvenir à un monde libéré du cancer, quel que soit le statut social ou le lieu de vie.",
       "valuesEyebrow": "CE QUI NOUS GUIDE",
       "valuesTitle": "Nos valeurs",
       "values": {
         "community": { "title": "La communauté d'abord", "description": "Nous allons vers les gens, plutôt que d'attendre qu'ils viennent à nous." },
-        "dignity": { "title": "La dignité dans les soins", "description": "Chaque famille que nous soutenons est traitée avec respect, non comme une charité par pitié." },
-        "followThrough": { "title": "Un engagement dans la durée", "description": "Nous ne nous arrêtons pas à une seule visite — le soutien continue jusqu'à ce que la famille soit stable." }
+        "dignity": { "title": "La dignité dans les soins", "description": "Chaque patient que nous soutenons est traité avec respect, non comme une charité par pitié." },
+        "followThrough": { "title": "Un engagement dans la durée", "description": "Nous ne nous arrêtons pas à une seule visite — le soutien continue jusqu'à ce que le patient soit stable." }
       },
       "bannerTitle": "Vous voulez en savoir plus sur notre façon de travailler ?"
     },
     "whatWeDo": {
       "eyebrow": "CE QUE NOUS FAISONS",
       "title": "Des soins qui vont à la rencontre des gens",
-      "description": "Du dépistage à la chirurgie en passant par un accompagnement familial durable — voici comment nous travaillons.",
+      "description": "Du dépistage à la chirurgie en passant par des soins oncologiques ancrés dans la communauté — voici comment nous travaillons.",
       "processEyebrow": "NOTRE PROCESSUS",
       "processTitle": "Comment se déroule chaque action de terrain",
-      "bannerTitle": "Vous connaissez une famille qui a besoin d'aide ?",
+      "bannerTitle": "Vous connaissez une personne qui a besoin de soutien ?",
       "reachOut": "Contactez-nous"
     },
     "team": {
@@ -198,7 +236,7 @@
     "contact": {
       "eyebrow": "CONTACT",
       "title": "Contactez-nous",
-      "description": "Questions, demandes de partenariat, ou une famille qui a besoin d'aide — écrivez-nous ci-dessous.",
+      "description": "Questions, demandes de partenariat, ou un patient qui a besoin de soutien — écrivez-nous ci-dessous.",
       "nameLabel": "Nom",
       "emailLabel": "E-mail",
       "messageLabel": "Message",

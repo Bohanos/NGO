@@ -46,25 +46,28 @@ export default function LanguageSwitcher() {
       </button>
 
       <div
-        className={`absolute right-0 top-full z-50 mt-2 w-40 origin-top-right rounded-2xl border border-primary/10
-                    bg-cream p-2 shadow-xl shadow-ink/10 transition-all duration-200
+        className={`absolute right-0 top-full z-50 mt-2 w-40 origin-top-right rounded-2xl
+                    border border-primary/15 bg-white shadow-2xl shadow-ink/25 transition-all duration-200
+                    dark:border-white/10 dark:bg-[#2A0F3D]
                     ${open ? 'visible scale-100 opacity-100' : 'invisible scale-95 opacity-0'}`}
       >
-        {languages.map((lang) => (
-          <button
-            key={lang.code}
-            onClick={() => {
-              i18n.changeLanguage(lang.code)
-              setOpen(false)
-            }}
-            className={`flex w-full items-center justify-between rounded-xl px-3 py-2 text-left text-sm font-medium
-                        transition-colors hover:bg-primary/10
-                        ${lang.code === current.code ? 'text-primary' : 'text-text'}`}
-          >
-            {lang.label}
-            {lang.code === current.code && <span className="text-primary">✓</span>}
-          </button>
-        ))}
+        <div className="p-2">
+          {languages.map((lang) => (
+            <button
+              key={lang.code}
+              onClick={() => {
+                i18n.changeLanguage(lang.code)
+                setOpen(false)
+              }}
+              className={`flex w-full items-center justify-between rounded-xl px-3 py-2 text-left text-sm font-medium
+                          transition-colors hover:bg-primary/10
+                          ${lang.code === current.code ? 'text-primary' : 'text-text'}`}
+            >
+              {lang.label}
+              {lang.code === current.code && <span className="text-primary">✓</span>}
+            </button>
+          ))}
+        </div>
       </div>
     </div>
   )

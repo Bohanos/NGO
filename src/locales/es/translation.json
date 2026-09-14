@@ -4,7 +4,7 @@
     "readMore": "Leer más",
     "learnOurStory": "Conoce nuestra historia",
     "seeWhatWeDo": "Ver qué hacemos",
-    "supportAFamily": "Apoya a una familia",
+    "supportAFamily": "Apoya a un paciente",
     "seeOurWork": "Ver nuestro trabajo",
     "sendMessage": "Enviar mensaje",
     "copy": "Copiar",
@@ -24,12 +24,14 @@
     "dropdown": {
       "screening": "Concienciación y detección del cáncer",
       "surgery": "Apoyo médico y quirúrgico",
-      "family": "Apoyo a la infancia y la familia",
+      "remoteVillages": "Apoyo a aldeas remotas",
+      "healthWorkerTraining": "Formación de agentes de salud",
+      "qualityOfLife": "Salud comunitaria y calidad de vida",
       "outreach": "Trabajo comunitario"
     }
   },
   "footer": {
-    "tagline": "Una fundación de base que colabora con el Gobierno Local de Bende (LGA) para llevar detección del cáncer, apoyo médico y ayuda a las familias que más lo necesitan.",
+    "tagline": "Una fundación de base que colabora con el Gobierno Local de Bende (LGA) para llevar detección del cáncer, apoyo médico y ayuda a los pacientes y comunidades que más lo necesitan.",
     "becomeADonor": "Conviértete en donante",
     "explore": "EXPLORAR",
     "getInvolved": "PARTICIPA",
@@ -43,13 +45,32 @@
     "location": "Bende LGA, Estado de Abia"
   },
   "hero": {
-    "eyebrow": "SALUD Y AYUDA COMUNITARIA · ESTADO DE ABIA",
+    "eyebrow": "ATENCIÓN COMUNITARIA CONTRA EL CÁNCER · ESTADO DE ABIA",
     "titleLine1": "Restaurando la esperanza,",
     "titleHighlight": "reconstruyendo vidas",
-    "titleLine2": "una familia a la vez.",
-    "description": "Llegamos a familias que no pueden pagar exámenes, cirugías o atención básica, llevando apoyo médico y ayuda directamente a la comunidad.",
+    "titleLine2": "un paciente a la vez.",
+    "description": "Llegamos a pacientes con cáncer que no pueden pagar exámenes, cirugías o tratamiento, llevando atención que salva vidas y apoyo directamente a la comunidad.",
     "mainPhotoAlt": "Caminata de sensibilización comunitaria",
     "insetPhotoAlt": "Voluntarios en un evento comunitario"
+  },
+  "signs": {
+    "eyebrow": "NUESTRO LLAMADO A LA ACCIÓN",
+    "title": "Conoce las señales, actúa, salva vidas",
+    "description": "La detección temprana lo cambia todo — así es como se ve en la práctica.",
+    "items": {
+      "knowSigns": {
+        "title": "Conoce las señales",
+        "description": "Bultos persistentes, sangrado inusual, pérdida de peso inexplicable o cambios que no desaparecen: reconocer las señales tempranas es el primer paso para vencer el cáncer."
+      },
+      "takeAction": {
+        "title": "Actúa",
+        "description": "Facilitamos actuar ante esas señales: detección gratuita, derivación médica y acompañamiento para obtener un diagnóstico sin demoras ni miedo económico."
+      },
+      "saveLives": {
+        "title": "Salva vidas",
+        "description": "La detección temprana mejora drásticamente la supervivencia. Cada persona detectada a tiempo es una vida que esta campaña ha ayudado a salvar."
+      }
+    }
   },
   "approach": {
     "eyebrow": "NUESTRO ENFOQUE",
@@ -58,21 +79,38 @@
       "reach": { "title": "Llegar", "description": "Vamos casa por casa por barrios y aldeas." },
       "screenEducate": { "title": "Detectar y educar", "description": "Detección gratuita en el lugar y educación sobre salud." },
       "supportTreat": { "title": "Apoyar y tratar", "description": "Cubrimos los costos de cirugía, medicamentos y atención." },
-      "followUp": { "title": "Dar seguimiento", "description": "Apoyo continuo hasta que la familia esté estable." }
+      "followUp": { "title": "Dar seguimiento", "description": "Apoyo continuo hasta que el paciente esté estable." }
     }
   },
   "services": {
     "eyebrow": "QUÉ HACEMOS",
     "title": "Brindando atención esencial, restaurando la dignidad",
     "screening": { "title": "Detección y concienciación del cáncer", "description": "Detección comunitaria gratuita, simposios y educación sobre la detección temprana." },
-    "surgery": { "title": "Cirugía y apoyo médico", "description": "Cubrimos el costo de la cirugía y el tratamiento para familias que no pueden costear la atención." },
-    "family": { "title": "Ayuda para la infancia y la familia", "description": "Apoyo para niños y hogares que enfrentan dificultades, enfermedad o pérdida." }
+    "surgery": { "title": "Cirugía y apoyo médico", "description": "Cubrimos el costo de la cirugía y el tratamiento para pacientes que no pueden costear la atención." },
+    "remoteVillages": {
+      "title": "Apoyo a pacientes con cáncer en aldeas remotas",
+      "description": "Llegamos a pacientes con cáncer en aldeas remotas y desatendidas con detección, apoyo al tratamiento y seguimiento al que de otro modo no podrían acceder."
+    },
+    "healthWorkerTraining": {
+      "title": "Formación colaborativa de agentes de salud",
+      "description": "Colaboramos con agentes de salud locales en comunidades remotas y desatendidas para desarrollar competencias prácticas y duraderas en el cuidado del cáncer."
+    },
+    "qualityOfLife": {
+      "title": "Mejorar la calidad de vida y la seguridad sanitaria",
+      "description": "Trabajamos para elevar los estándares de salud y seguridad cotidianos en comunidades desatendidas, más allá de intervenciones puntuales."
+    }
   },
   "story": {
     "eyebrow": "NUESTRA HISTORIA",
     "title": "Sanar más allá de las paredes del hospital",
     "description": "Todo comenzó con una simple caminata de concienciación sobre el cáncer en Bende LGA. Desde entonces, se ha convertido en un movimiento de base, en colaboración con el gobierno local, asociaciones médicas y líderes comunitarios, para asegurar que la atención llegue a las personas, y no al revés.",
     "imageAlt": "Simposio de salud comunitaria"
+  },
+  "grassroots": {
+    "eyebrow": "NUESTRO ALCANCE",
+    "title": "Llegando a las bases en África Occidental",
+    "description": "Desde puestos de salud en aldeas hasta salones comunitarios remotos, llevamos el mensaje y los medios de la detección temprana del cáncer más allá de las ciudades, hasta los rincones desatendidos de África Occidental donde más se necesita.",
+    "imageAlt": "Acción comunitaria en una aldea remota"
   },
   "team": {
     "eyebrow": "DETRÁS DE LA FUNDACIÓN",
@@ -106,41 +144,41 @@
     }
   },
   "cta": {
-    "title": "Ayúdanos a llegar a la próxima familia",
-    "description": "Cada donación financia un examen, una cirugía o un hogar que necesitaba ayuda hoy.",
+    "title": "Ayúdanos a llegar al próximo paciente",
+    "description": "Cada donación financia un examen, una cirugía o un tratamiento para alguien que lo necesita hoy.",
     "button": "Donar ahora"
   },
   "pages": {
     "about": {
       "eyebrow": "QUIÉNES SOMOS",
       "title": "Una fundación de base construida sobre la acción",
-      "intro": "The Macedonian Call Cancer Foundation comenzó con una simple caminata de concienciación sobre el cáncer en Bende LGA. Desde entonces, se ha convertido en una alianza continua con el gobierno local, asociaciones médicas y líderes comunitarios, trabajando para que la detección, el tratamiento y la ayuda realmente lleguen a quienes los necesitan.",
+      "intro": "The Macedonian Call Cancer Foundation comenzó con una simple caminata de concienciación sobre el cáncer en Bende LGA. Desde entonces, se ha convertido en una alianza continua con el gobierno local, asociaciones médicas y líderes comunitarios, trabajando para que la detección, el tratamiento y el apoyo realmente lleguen a quienes los necesitan.",
       "introImageAlt": "Equipo de la fundación y voluntarios",
       "stats": {
         "outreaches": "Jornadas comunitarias",
-        "households": "Hogares alcanzados",
+        "households": "Pacientes atendidos",
         "partners": "Organizaciones aliadas"
       },
-      "missionTitle": "Nuestra misión",
-      "mission": "Llevar detección del cáncer, apoyo médico y ayuda directamente a familias que de otro modo no podrían costear la atención, comenzando en Bende LGA y creciendo con cada jornada.",
-      "visionTitle": "Nuestra visión",
-      "vision": "Una comunidad donde nadie retrase un tratamiento, se salte una detección o enfrente una enfermedad en soledad por no poder costearla.",
+      "missionTitle": "Declaración de misión",
+      "mission": "Llevar la noticia y el mensaje del cáncer a las bases y comunidades desatendidas de África.",
+      "visionTitle": "Declaración de visión",
+      "vision": "Lograr un mundo libre de cáncer, sin importar el estatus social ni el lugar.",
       "valuesEyebrow": "LO QUE NOS GUÍA",
       "valuesTitle": "Nuestros valores",
       "values": {
         "community": { "title": "La comunidad primero", "description": "Vamos hacia donde está la gente, en lugar de esperar a que nos encuentren." },
-        "dignity": { "title": "Dignidad en la atención", "description": "Cada familia que apoyamos es tratada con respeto, no como caridad por lástima." },
-        "followThrough": { "title": "Compromiso hasta el final", "description": "No nos detenemos en una sola visita: el apoyo continúa hasta que la familia esté estable." }
+        "dignity": { "title": "Dignidad en la atención", "description": "Cada paciente que apoyamos es tratado con respeto, no como caridad por lástima." },
+        "followThrough": { "title": "Compromiso hasta el final", "description": "No nos detenemos en una sola visita: el apoyo continúa hasta que el paciente esté estable." }
       },
       "bannerTitle": "¿Quieres saber más sobre cómo trabajamos?"
     },
     "whatWeDo": {
       "eyebrow": "QUÉ HACEMOS",
       "title": "Atención que llega hasta donde está la gente",
-      "description": "Desde la detección hasta la cirugía y el apoyo familiar continuo: así es como trabajamos.",
+      "description": "Desde la detección hasta la cirugía y la atención oncológica comunitaria: así es como trabajamos.",
       "processEyebrow": "NUESTRO PROCESO",
       "processTitle": "Cómo se desarrolla cada jornada",
-      "bannerTitle": "¿Conoces a una familia que necesita apoyo?",
+      "bannerTitle": "¿Conoces a alguien que necesita apoyo?",
       "reachOut": "Contáctanos"
     },
     "team": {
@@ -198,7 +236,7 @@
     "contact": {
       "eyebrow": "CONTACTO",
       "title": "Ponte en contacto",
-      "description": "Preguntas, solicitudes de alianza o una familia que necesita apoyo: escríbenos a continuación.",
+      "description": "Preguntas, solicitudes de alianza o un paciente que necesita apoyo: escríbenos a continuación.",
       "nameLabel": "Nombre",
       "emailLabel": "Correo electrónico",
       "messageLabel": "Mensaje",
