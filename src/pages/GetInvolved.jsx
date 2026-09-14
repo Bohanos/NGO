@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next'
 import SectionHeading from '../components/ui/SectionHeading'
 import Button from '../components/ui/Button'
 import Reveal from '../components/ui/Reveal'
+import usePageTitle from '../hooks/usePageTitle'
 
 const options = [
   {
@@ -33,6 +34,7 @@ const partners = [
 
 export default function GetInvolved() {
   const { t } = useTranslation()
+  usePageTitle(t('nav.getInvolved'))
 
   return (
     <>

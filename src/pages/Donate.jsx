@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import SectionHeading from '../components/ui/SectionHeading'
 import Reveal from '../components/ui/Reveal'
+import usePageTitle from '../hooks/usePageTitle'
 
 // Dummy bank account — literal data, not translated (proper noun + digits).
 // Swap for Paystack/Flutterwave once that integration is built.
@@ -13,6 +14,7 @@ const bankDetails = {
 
 export default function Donate() {
   const { t } = useTranslation()
+  usePageTitle(t('common.donate'))
   const [copied, setCopied] = useState(false)
 
   const handleCopy = () => {

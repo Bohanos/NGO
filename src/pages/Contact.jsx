@@ -3,9 +3,11 @@ import { useTranslation } from 'react-i18next'
 import SectionHeading from '../components/ui/SectionHeading'
 import Button from '../components/ui/Button'
 import Reveal from '../components/ui/Reveal'
+import usePageTitle from '../hooks/usePageTitle'
 
 export default function Contact() {
   const { t } = useTranslation()
+  usePageTitle(t('footer.contact'))
   const [form, setForm] = useState({ name: '', email: '', message: '' })
 
   const handleChange = (e) =>

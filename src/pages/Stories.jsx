@@ -2,9 +2,11 @@ import { useTranslation } from 'react-i18next'
 import SectionHeading from '../components/ui/SectionHeading'
 import Reveal from '../components/ui/Reveal'
 import { stories } from '../data/stories'
+import usePageTitle from '../hooks/usePageTitle'
 
 export default function Stories() {
   const { t } = useTranslation()
+  usePageTitle(t('nav.stories'))
 
   return (
     <section className="px-6 py-16 md:px-10 md:py-20">

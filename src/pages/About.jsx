@@ -3,9 +3,11 @@ import SectionHeading from '../components/ui/SectionHeading'
 import Button from '../components/ui/Button'
 import Reveal from '../components/ui/Reveal'
 import { aboutStats, aboutValues } from '../data/about'
+import usePageTitle from '../hooks/usePageTitle'
 
 export default function About() {
   const { t } = useTranslation()
+  usePageTitle(t('nav.whoWeAre'))
 
   return (
     <>

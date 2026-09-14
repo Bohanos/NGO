@@ -2,10 +2,11 @@ import { useTranslation } from 'react-i18next'
 import SectionHeading from '../components/ui/SectionHeading'
 import TeamGrid from '../components/home/TeamGrid'
 import LeadershipCards from '../components/home/LeadershipCards'
+import usePageTitle from '../hooks/usePageTitle'
 
 export default function Team() {
   const { t } = useTranslation()
-
+  usePageTitle(t('nav.ourTeam'))
   return (
     <>
       {/* Top of page — visible on load, no Reveal */}
