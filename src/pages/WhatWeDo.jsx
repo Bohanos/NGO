@@ -42,16 +42,17 @@ export default function WhatWeDo() {
               </p>
             </div>
 
-            <div className="h-[240px] overflow-hidden rounded-3xl shadow-lg shadow-ink/10 md:[direction:ltr]">
+            <div className="md:[direction:ltr]">
               {service.image ? (
-                // IMAGE: photo representing this focus area, landscape, min 1000x750px
+                // IMAGE: any orientation works — the box adapts to the image's own
+                // aspect ratio instead of forcing a fixed crop (same as Pexels/Pixabay tiles)
                 <img
                   src={service.image}
                   alt={t(`services.${service.id}.title`)}
-                  className="h-full w-full object-cover"
+                  className="w-full h-auto rounded-3xl shadow-lg shadow-ink/10"
                 />
               ) : (
-                <div className="flex h-full w-full items-center justify-center bg-primary/5 text-[12px] font-medium text-primary/40">
+                <div className="flex h-[240px] w-full items-center justify-center rounded-3xl bg-primary/5 text-[12px] font-medium text-primary/40">
                   {t('common.imagePending')}
                 </div>
               )}
