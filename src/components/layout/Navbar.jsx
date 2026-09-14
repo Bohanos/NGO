@@ -123,13 +123,15 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile menu panel. */}
+      {/* Mobile menu panel — overflow-hidden only while CLOSED (needed for the
+          collapse animation); overflow-visible once OPEN, so LanguageSwitcher's
+          popover isn't clipped by this container. */}
       <div
         className={`transition-all duration-300 md:hidden ${
           mobileOpen ? 'max-h-[80vh] overflow-visible opacity-100' : 'max-h-0 overflow-hidden opacity-0'
         }`}
       >
-        {/* Nav column (left) + language switcher (right), side by side. */}
+        {/* Nav column (left) + language switcher (right), side by side */}
         <div className="mt-4 flex gap-3 border-t border-primary/10 pt-4">
           <ul className="flex flex-1 flex-col gap-1">
             {navItems.map((item) => (
@@ -153,16 +155,24 @@ export default function Navbar() {
                         <path d="M6 9l6 6 6-6" />
                       </svg>
                     </button>
+
+                    {/* Contained, internally-scrollable dropdown — capped height
+                        so it never pushes the page; overscroll-contain stops
+                        scroll from "leaking" into the main page once you hit
+                        the top/bottom of this list. overflow-y-auto only while
+                        OPEN, so the collapse-to-0 animation still clips cleanly. */}
                     <div
-                      className={`overflow-hidden pl-3 transition-all duration-300 ${
-                        mobileDropdownOpen ? 'max-h-60' : 'max-h-0'
+                      className={`pl-3 transition-all duration-300 ${
+                        mobileDropdownOpen
+                          ? 'max-h-48 overflow-y-auto overscroll-contain'
+                          : 'max-h-0 overflow-hidden'
                       }`}
                     >
                       {item.dropdown.map((sub) => (
                         <Link
                           key={sub.key}
                           to={sub.href}
-                          className="block py-2.5 text-sm text-text/80"
+                          className="block py-2.5 pr-2 text-sm text-text/80"
                         >
                           {t(sub.key)}
                         </Link>
@@ -181,7 +191,7 @@ export default function Navbar() {
             ))}
           </ul>
 
-          {/* Language switcher. */}
+          {/* Language switcher — its own column, popover style */}
           <div className="w-28 shrink-0 pt-0.5">
             <LanguageSwitcher />
           </div>
