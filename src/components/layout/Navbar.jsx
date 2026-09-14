@@ -123,76 +123,76 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile menu panel — overflow-hidden only while CLOSED (needed for the
-          collapse animation); overflow-visible once OPEN, so LanguageSwitcher's
-          absolutely-positioned dropdown isn't clipped by this container. */}
+      {/* Mobile menu panel. */}
       <div
         className={`transition-all duration-300 md:hidden ${
           mobileOpen ? 'max-h-[80vh] overflow-visible opacity-100' : 'max-h-0 overflow-hidden opacity-0'
         }`}
       >
-        <ul className="mt-4 flex flex-col gap-1 border-t border-primary/10 pt-4">
-          {navItems.map((item) => (
-            <li key={item.key}>
-              {item.dropdown ? (
-                <>
-                  <button
-                    onClick={() => setMobileDropdownOpen((o) => !o)}
-                    className="flex w-full items-center justify-between border-b border-primary/5 py-3.5 text-sm font-semibold text-text"
+        {/* Nav column (left) + language switcher (right), side by side. */}
+        <div className="mt-4 flex gap-3 border-t border-primary/10 pt-4">
+          <ul className="flex flex-1 flex-col gap-1">
+            {navItems.map((item) => (
+              <li key={item.key}>
+                {item.dropdown ? (
+                  <>
+                    <button
+                      onClick={() => setMobileDropdownOpen((o) => !o)}
+                      className="flex w-full items-center gap-2 border-b border-primary/5 py-3.5 text-sm font-semibold text-text"
+                    >
+                      {t(item.key)}
+                      <svg
+                        viewBox="0 0 24 24"
+                        className={`h-3.5 w-3.5 stroke-current transition-transform duration-300 ${
+                          mobileDropdownOpen ? 'rotate-180' : ''
+                        }`}
+                        fill="none"
+                        strokeWidth="3"
+                        strokeLinecap="round"
+                      >
+                        <path d="M6 9l6 6 6-6" />
+                      </svg>
+                    </button>
+                    <div
+                      className={`overflow-hidden pl-3 transition-all duration-300 ${
+                        mobileDropdownOpen ? 'max-h-60' : 'max-h-0'
+                      }`}
+                    >
+                      {item.dropdown.map((sub) => (
+                        <Link
+                          key={sub.key}
+                          to={sub.href}
+                          className="block py-2.5 text-sm text-text/80"
+                        >
+                          {t(sub.key)}
+                        </Link>
+                      ))}
+                    </div>
+                  </>
+                ) : (
+                  <Link
+                    to={item.href}
+                    className="block border-b border-primary/5 py-3.5 text-sm font-semibold text-text"
                   >
                     {t(item.key)}
-                    <svg
-                      viewBox="0 0 24 24"
-                      className={`h-3.5 w-3.5 stroke-current transition-transform duration-300 ${
-                        mobileDropdownOpen ? 'rotate-180' : ''
-                      }`}
-                      fill="none"
-                      strokeWidth="3"
-                      strokeLinecap="round"
-                    >
-                      <path d="M6 9l6 6 6-6" />
-                    </svg>
-                  </button>
-                  <div
-                    className={`overflow-hidden pl-3 transition-all duration-300 ${
-                      mobileDropdownOpen ? 'max-h-60' : 'max-h-0'
-                    }`}
-                  >
-                    {item.dropdown.map((sub) => (
-                      <Link
-                        key={sub.key}
-                        to={sub.href}
-                        className="block py-2.5 text-sm text-text/80"
-                      >
-                        {t(sub.key)}
-                      </Link>
-                    ))}
-                  </div>
-                </>
-              ) : (
-                <Link
-                  to={item.href}
-                  className="block border-b border-primary/5 py-3.5 text-sm font-semibold text-text"
-                >
-                  {t(item.key)}
-                </Link>
-              )}
-            </li>
-          ))}
+                  </Link>
+                )}
+              </li>
+            ))}
+          </ul>
 
-          {/* Mobile-only copy — desktop instance is hidden below sm: (see above),
-              so this is the sole place it renders on small screens. */}
-          <div className="mt-4 flex justify-center border-t border-primary/10 pt-4 sm:hidden">
+          {/* Language switcher. */}
+          <div className="w-28 shrink-0 pt-0.5">
             <LanguageSwitcher />
           </div>
+        </div>
 
-          <Link
-            to="/donate"
-            className="mt-4 rounded-full bg-gradient-to-r from-primary to-primary-dark px-6 py-3 text-center text-sm font-bold text-white"
-          >
-            {t('common.donate')}
-          </Link>
-        </ul>
+        <Link
+          to="/donate"
+          className="mt-4 block rounded-full bg-gradient-to-r from-primary to-primary-dark px-6 py-3 text-center text-sm font-bold text-white"
+        >
+          {t('common.donate')}
+        </Link>
       </div>
     </nav>
   )
