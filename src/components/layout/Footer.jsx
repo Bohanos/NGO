@@ -83,6 +83,12 @@ export default function Footer() {
         <div className="mx-auto mt-5 flex max-w-7xl flex-col gap-2 text-xs text-white/45 sm:flex-row sm:justify-between">
           <span>© {new Date().getFullYear()} {t('footer.copyright')}</span>
           <span>{t('footer.privacy')} · {t('footer.accessibility')}</span>
+          <p>
+            {t('footer.builtBy', 'Website by')}{' '}
+            <a href="https://bohanos-portfolio.vercel.app/" target="_blank" rel="noopener">
+              Bohanos
+            </a>
+          </p>
         </div>
       </footer>
     </>
